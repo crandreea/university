@@ -1,0 +1,26 @@
+# ninja log v5
+0	103	1718986056124689855	melodie1_autogen/timestamp	105ac00314c3abb1
+0	103	1718986056124689855	melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+0	103	1718986056124689855	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/timestamp	105ac00314c3abb1
+0	103	1718986056124689855	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+103	165	1718986056203400568	CMakeFiles/melodie1.dir/melodie1_autogen/mocs_compilation.cpp.o	c0e5196af522114b
+105	4539	1718986060558727832	CMakeFiles/melodie1.dir/main.cpp.o	21159219ef29e2ae
+4543	4864	1718986060896565145	melodie1	cc3c584ad54ad34f
+6	43	1718986159017649926	melodie1_autogen/timestamp	105ac00314c3abb1
+6	43	1718986159017649926	melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+6	43	1718986159017649926	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/timestamp	105ac00314c3abb1
+6	43	1718986159017649926	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+44	1156	1718986160126342242	CMakeFiles/melodie1.dir/main.cpp.o	21159219ef29e2ae
+1156	1298	1718986160267700251	melodie1	cc3c584ad54ad34f
+6	42	1718986381433437407	melodie1_autogen/timestamp	105ac00314c3abb1
+6	42	1718986381433437407	melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+6	42	1718986381433437407	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/timestamp	105ac00314c3abb1
+6	42	1718986381433437407	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+43	1103	1718986382489270554	CMakeFiles/melodie1.dir/main.cpp.o	21159219ef29e2ae
+1103	1280	1718986382665069107	melodie1	cc3c584ad54ad34f
+6	41	1718986510557532317	melodie1_autogen/timestamp	105ac00314c3abb1
+6	41	1718986510557532317	melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+6	41	1718986510557532317	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/timestamp	105ac00314c3abb1
+6	41	1718986510557532317	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug-coverage/melodie1_autogen/mocs_compilation.cpp	105ac00314c3abb1
+42	1582	1718986512093788953	CMakeFiles/melodie1.dir/main.cpp.o	21159219ef29e2ae
+1582	1762	1718986512273216379	melodie1	cc3c584ad54ad34f

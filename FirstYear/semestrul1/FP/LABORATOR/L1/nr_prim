@@ -1,0 +1,13 @@
+x = int(input())
+def function_prim(x):
+    if x < 2:
+        return False
+    if x == 2:
+        return True
+    if x % 2 == 0:
+        return False
+    for d in range(3, x, 1):
+        if x % d == 0:
+            return False
+    return True
+print(function_prim(x))

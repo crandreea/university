@@ -1,0 +1,3 @@
+/Users/croitoruandreea/Desktop/Matrice_Lab7/cmake-build-debug/CMakeFiles/Matrice_Lab7.dir
+/Users/croitoruandreea/Desktop/Matrice_Lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/Matrice_Lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+mate 2 i e
+mate 2 o p
+mate 5 i p
+info 2 t e
+v 2 r r
+g 4 lab r
+f 3 lab e

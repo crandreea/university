@@ -1,0 +1,10 @@
+# ninja log v5
+6	30	1716382150349188246	simulare_autogen/mocs_compilation.cpp	ab55f2e27bd3d589
+6	30	1716382150349188246	simulare_autogen/timestamp	ab55f2e27bd3d589
+31	462	1716382150777160499	CMakeFiles/simulare.dir/test.cpp.o	b83be6caf5790539
+153	199	1716378413706165356	CMakeFiles/simulare.dir/simulare_autogen/mocs_compilation.cpp.o	6e1bffe80d0e356a
+31	503	1716381013785101918	CMakeFiles/simulare.dir/service.cpp.o	882b1c5b57e56b6a
+579	719	1716382151034181910	simulare	cb4892ffae321ea2
+31	579	1716382150895662236	CMakeFiles/simulare.dir/repo.cpp.o	67cfb7ab72eec88e
+30	873	1716381913079894265	CMakeFiles/simulare.dir/gui.cpp.o	ff5fc1f5ec649230
+30	861	1716381913067043657	CMakeFiles/simulare.dir/main.cpp.o	5b948f1cac394b9b

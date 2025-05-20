@@ -1,0 +1,4 @@
+1,cluj,450,inchiriere
+2,cluj,550,inchiriere
+3,arad,200,vanzare
+4,arad,400,vanzare

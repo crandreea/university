@@ -1,0 +1,4 @@
+sd 2 lab m
+oop 2 lab i
+oop 2 curs r
+sda 1 seminar m

@@ -1,0 +1,5 @@
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/CMakeFiles/Lab10.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/CMakeFiles/Lab10_autogen_timestamp_deps.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/CMakeFiles/Lab10_autogen.dir

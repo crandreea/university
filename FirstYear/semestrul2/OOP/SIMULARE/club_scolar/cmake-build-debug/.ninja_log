@@ -1,0 +1,12 @@
+# ninja log v5
+35	1125	1716304378029549057	CMakeFiles/untitled4.dir/gui.cpp.o	4e633eddb785e489
+5	30	1716304412256672786	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug/untitled4_autogen/timestamp	ff4626c1bea5ace4
+35	536	1716304377441096866	CMakeFiles/untitled4.dir/repo.cpp.o	7e541410b82ca42b
+35	533	1716304377434518933	CMakeFiles/untitled4.dir/test.cpp.o	6a77c4d6c76b6923
+5	30	1716304412256672786	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug/untitled4_autogen/mocs_compilation.cpp	ff4626c1bea5ace4
+31	787	1716304413010882606	CMakeFiles/untitled4.dir/main.cpp.o	1c468d6f089ab264
+5	30	1716304412256672786	untitled4_autogen/mocs_compilation.cpp	ff4626c1bea5ace4
+171	212	1716277849393699388	CMakeFiles/untitled4.dir/untitled4_autogen/mocs_compilation.cpp.o	ed0919d83019c3dd
+787	935	1716304413158166155	untitled4	2231ef48da4c457e
+34	565	1716304377469719535	CMakeFiles/untitled4.dir/service.cpp.o	f78f96cdaf6716a0
+5	30	1716304412256672786	untitled4_autogen/timestamp	ff4626c1bea5ace4

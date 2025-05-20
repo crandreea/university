@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simulare",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "simulare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulare-Debug-297f8177be6f6398a0f6.json",
+					"name" : "simulare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulare_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulare_autogen-Debug-f7c197bececda92824bc.json",
+					"name" : "simulare_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulare_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulare_autogen_timestamp_deps-Debug-72f60591ced781d0a8d3.json",
+					"name" : "simulare_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/simulare/cmake-build-debug",
+		"source" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/simulare"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

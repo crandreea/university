@@ -1,0 +1,17 @@
+# ninja log v5
+56	1767	1718987623127112456	CMakeFiles/taskuri.dir/main.cpp.o	3af826d249f0393c
+7	51	1718987621417311477	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri/cmake-build-debug/taskuri_autogen/timestamp	208e12c35bb7b5d1
+1768	1932	1718987623294780674	taskuri	d8e963c2a6a3e2bc
+43	742	1718974294472028732	CMakeFiles/taskuri.dir/repo.cpp.o	f3de4059859dbe0c
+7	51	1718987621417311477	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri/cmake-build-debug/taskuri_autogen/mocs_compilation.cpp	208e12c35bb7b5d1
+56	1768	1718987623127105248	CMakeFiles/taskuri.dir/gui.cpp.o	8dd8b1ca3b492185
+7	51	1718987621417311477	taskuri_autogen/mocs_compilation.cpp	208e12c35bb7b5d1
+151	190	1718963285977839992	CMakeFiles/taskuri.dir/taskuri_autogen/mocs_compilation.cpp.o	721c48c9ecc90708
+7	51	1718987621417311477	taskuri_autogen/timestamp	208e12c35bb7b5d1
+10	45	1718987857475887600	taskuri_autogen/timestamp	208e12c35bb7b5d1
+10	45	1718987857475887600	taskuri_autogen/mocs_compilation.cpp	208e12c35bb7b5d1
+10	45	1718987857475887600	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri/cmake-build-debug/taskuri_autogen/timestamp	208e12c35bb7b5d1
+10	45	1718987857475887600	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri/cmake-build-debug/taskuri_autogen/mocs_compilation.cpp	208e12c35bb7b5d1
+47	1291	1718987858710965200	CMakeFiles/taskuri.dir/main.cpp.o	3af826d249f0393c
+47	1292	1718987858710962283	CMakeFiles/taskuri.dir/gui.cpp.o	8dd8b1ca3b492185
+1292	1484	1718987858910735545	taskuri	d8e963c2a6a3e2bc

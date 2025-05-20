@@ -1,0 +1,5 @@
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage/CMakeFiles/untitled4.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage/CMakeFiles/untitled4_autogen_timestamp_deps.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage/CMakeFiles/untitled4_autogen.dir

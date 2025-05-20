@@ -1,0 +1,12 @@
+x = int(input())
+y = int(input())
+
+def function_cmmdc(x, y):
+    r = x % y
+    while r:
+        x = y
+        y = r
+        r = x % y
+    return y
+
+print (function_cmmdc(x, y))

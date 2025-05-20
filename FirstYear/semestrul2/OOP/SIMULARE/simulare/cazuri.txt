@@ -1,0 +1,8 @@
+1,ee,eee,typo,minor
+2,eer,ert,typo,major
+3,rr,jj,grammar,minor
+4,ff,ddd,grammar,major
+5,jj,gddh,typo,medium
+6,kdkdj,hfhfhf,grammar,medium
+7,vuhdf,dbe,typo,minor
+8,fbd,dhbubd,incorrect tense,minor

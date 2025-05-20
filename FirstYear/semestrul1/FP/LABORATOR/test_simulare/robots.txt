@@ -1,0 +1,3 @@
+1;44;fid Nemo;up,down,halt,right
+2;58;idk;right,left,left,down
+3;78;find;lef,lef,halt,up

@@ -1,0 +1,5 @@
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/CMakeFiles/melodie1.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/CMakeFiles/melodie1_autogen_timestamp_deps.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/CMakeFiles/melodie1_autogen.dir

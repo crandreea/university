@@ -1,0 +1,18 @@
+
+Cerinta 2:
+
+Date: lista numere intregi          Rezultate: lista numere intregi
+1 2 3 2 1                           The maximum lenght sequence is: [1, 2, 3, 2, 1]
+1 2 3 2 4 5 6 4 3                   The maximum lenght sequence is: [2, 4, 5, 6, 4, 3]
+1 2                                 The maximum lenght sequence was not found
+2 3 2 3 2                           The maximum lenght sequence is: [2, 3, 2]
+
+
+Cerinta 3:
+s
+Date: lista numere intregi          Rezultate: lista numere intregi
+1 3                                 The maximum lenght sequence was not found
+1 2 3                               The maximum lenght sequence was not found
+1 2 1 3                             The maximum lenght sequence is: [1, 2, 1]
+1 2 1 3 2 3 3 3 4 3                 The maximum lenght sequence is: [3, 2, 3, 3, 3, 4, 3]
+

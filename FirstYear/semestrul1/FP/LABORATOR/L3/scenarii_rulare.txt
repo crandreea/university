@@ -1,0 +1,15 @@
+
+
+
+Utilizator  Program             Descriere
+            Chose an option:    Afiseaza meniul si tipareste cerinta de a introduce lista de numere intregi
+    1                           Citeste optiunea
+            Enter list:         Afiseaza mesajul si asteapta citirea listei
+1 2 3 2                         Citeste lista
+            List read           Afiseaza mesajul ca lista a fost citita
+            Chose an option:    Afiseaza meniul si tipareste cerinta de a introduce lista de numere intregi      
+    2                           Citeste optiunea
+            1 2 3 2             Afiseaza rezultatul optiunii      
+    3                           Citeste optiunea
+            2 3 2               Afiseaza rezultatul optiunii
+

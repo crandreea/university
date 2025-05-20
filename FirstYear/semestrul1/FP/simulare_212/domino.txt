@@ -1,0 +1,11 @@
+1,cluj,450,vanzare
+2,cluj,560,inchiriere
+3,arad,200,inchiriere
+4,timisoara,600,vanzare
+5,arad,760,vanzare
+6,oradea,390,inchiriere
+7,timisoara,980,vanzare
+8,sibiu,468,inchiriere
+9,sibiu,1300,vanzare
+10,brasov,870,inchiriere
+11,brasov,400,vanzare
