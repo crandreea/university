@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "taskuri",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "taskuri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-taskuri-Debug-c552d8493a00d5fad30d.json",
+					"name" : "taskuri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "taskuri_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-taskuri_autogen-Debug-e8b800d4285f9352aaa9.json",
+					"name" : "taskuri_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "taskuri_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-taskuri_autogen_timestamp_deps-Debug-c7b3a3800e389c6bd24f.json",
+					"name" : "taskuri_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri/cmake-build-debug",
+		"source" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/taskuri"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,3 @@
+/Users/croitoruandreea/Desktop/test2_grafuri/cmake-build-debug/CMakeFiles/test2_grafuri.dir
+/Users/croitoruandreea/Desktop/test2_grafuri/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/test2_grafuri/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,24 @@
+# ninja log v5
+13	32	1716984558400643161	Lab10_autogen/timestamp	47d78fd38b8f531d
+35	1213	1716984550019496185	CMakeFiles/Lab10.dir/main.cpp.o	aed0e23979c4e958
+35	849	1716984549657021429	CMakeFiles/Lab10.dir/service.cpp.o	6f534975dae27f9e
+7	30	1715773186221086394	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/timestamp	9857b2978f05fb55
+13	32	1716984558400643161	Lab10_autogen/mocs_compilation.cpp	47d78fd38b8f531d
+35	723	1716984549521489652	CMakeFiles/Lab10.dir/contract.cpp.o	2e87361d8d0ea43c
+35	722	1716984549523934091	CMakeFiles/Lab10.dir/teste.cpp.o	6a3ef70d56223244
+7	30	1715773186221086394	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/mocs_compilation.cpp	9857b2978f05fb55
+33	989	1716984559352084991	CMakeFiles/Lab10.dir/GUI.cpp.o	fe46502aabee3d6d
+172	232	1716651502765614991	CMakeFiles/Lab10.dir/Lab10_autogen/mocs_compilation.cpp.o	6ae4832aa2015691
+173	940	1716651503472446561	CMakeFiles/Lab10.dir/repo.cpp.o	60850fd433cf85ac
+174	758	1716651503289341053	CMakeFiles/Lab10.dir/validator.cpp.o	59c630b4dd4233ff
+989	1177	1716984559540437773	Lab10	866ab3b6acf14bf7
+13	32	1716984558400643161	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab13-14/cmake-build-debug/Lab10_autogen/timestamp	47d78fd38b8f531d
+13	32	1716984558400643161	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab13-14/cmake-build-debug/Lab10_autogen/mocs_compilation.cpp	47d78fd38b8f531d
+2	173	1741977136657132116	Lab10_autogen/timestamp	47d78fd38b8f531d
+2	173	1741977136657132116	Lab10_autogen/mocs_compilation.cpp	47d78fd38b8f531d
+2	173	1741977136657132116	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab13-14/cmake-build-debug/Lab10_autogen/timestamp	47d78fd38b8f531d
+2	173	1741977136657132116	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab13-14/cmake-build-debug/Lab10_autogen/mocs_compilation.cpp	47d78fd38b8f531d
+173	217	1741977136698748598	CMakeFiles/Lab10.dir/Lab10_autogen/mocs_compilation.cpp.o	c8497704a65af3e6
+174	484	1741977136963090859	CMakeFiles/Lab10.dir/validator.cpp.o	6dee14cb693b855b
+173	632	1741977137112017120	CMakeFiles/Lab10.dir/contract.cpp.o	d254c9e7f7efab74
+174	1148	1741977137625679434	CMakeFiles/Lab10.dir/main.cpp.o	8abe008da8e42622

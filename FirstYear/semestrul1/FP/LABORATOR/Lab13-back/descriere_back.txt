@@ -1,0 +1,13 @@
+Generare permutari de tip munte
+
+soluție candidat:        
+x=(x0, x1,. ..,xk ), xi ∈(0,1,..,N−1) 
+
+condiție consistent:         
+x=(x0, x1,. ..,xk ) e consistent dacă 
+xi ≠ xj pentru ∀i≠j si x =(a, b) , unde a si b doua siruri (a≠b) de forma:
+a = (x0', x1', ... xm) xi' < x(i+1)' ,
+b = (xm, xm+1, ..., xk') xi' > x(i+1)', unde xm = max(x0, x1,...xk)
+
+condiție soluție:          
+x=(x0, x1,. ..,xk ) e soluţie dacă e consistent şi k=N−1 

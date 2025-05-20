@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled4-Debug-e0ad90482f594429f496.json",
+					"name" : "untitled4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled4_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled4_autogen-Debug-b5cb1ba775cef1c853e4.json",
+					"name" : "untitled4_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled4_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled4_autogen_timestamp_deps-Debug-6c17f16564d829312626.json",
+					"name" : "untitled4_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar/cmake-build-debug-coverage",
+		"source" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/club_scolar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

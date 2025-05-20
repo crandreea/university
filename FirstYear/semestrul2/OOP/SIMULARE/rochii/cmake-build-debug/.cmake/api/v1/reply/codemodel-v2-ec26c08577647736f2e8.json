@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rochii",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rochii::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rochii-Debug-f6a9f47e920fb4f71ba8.json",
+					"name" : "rochii",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rochii_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rochii_autogen-Debug-7b936b4ae14e994c0ce8.json",
+					"name" : "rochii_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rochii_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rochii_autogen_timestamp_deps-Debug-36430fb52b99b491735f.json",
+					"name" : "rochii_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug",
+		"source" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

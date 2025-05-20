@@ -1,0 +1,5 @@
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug/CMakeFiles/rochii.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug/CMakeFiles/rochii_autogen_timestamp_deps.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/SIMULARE/rochii/cmake-build-debug/CMakeFiles/rochii_autogen.dir

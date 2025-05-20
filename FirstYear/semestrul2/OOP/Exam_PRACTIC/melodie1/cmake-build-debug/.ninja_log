@@ -1,0 +1,8 @@
+# ninja log v5
+15	138	1718986038377581488	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/melodie1_autogen/timestamp	dfa0232c125318a7
+15	138	1718986038377581488	melodie1_autogen/mocs_compilation.cpp	dfa0232c125318a7
+15	138	1718986038377581488	melodie1_autogen/timestamp	dfa0232c125318a7
+156	194	1718984623106330742	CMakeFiles/melodie1.dir/melodie1_autogen/mocs_compilation.cpp.o	3cc3ab9eaa9eb667
+15	138	1718986038377581488	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_PRACTIC/melodie1/cmake-build-debug/melodie1_autogen/mocs_compilation.cpp	dfa0232c125318a7
+3829	4343	1718986042572585075	melodie1	dbfe87f51de27d3c
+141	3829	1718986042051086794	CMakeFiles/melodie1.dir/main.cpp.o	c30fe3186b992ce7

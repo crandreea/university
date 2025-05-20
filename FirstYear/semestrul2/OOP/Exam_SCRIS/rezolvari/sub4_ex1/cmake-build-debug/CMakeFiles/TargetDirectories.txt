@@ -1,0 +1,3 @@
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_SCRIS/sub4_ex1/cmake-build-debug/CMakeFiles/sub4_ex1.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_SCRIS/sub4_ex1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/Exam_SCRIS/sub4_ex1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

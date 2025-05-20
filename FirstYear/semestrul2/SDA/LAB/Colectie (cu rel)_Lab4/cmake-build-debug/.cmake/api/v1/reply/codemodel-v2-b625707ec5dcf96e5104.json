@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Colectie__cu_rel__Lab4",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Colectie__cu_rel__Lab4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Colectie__cu_rel__Lab4-Debug-05d9082c303bf54eaacc.json",
+					"name" : "Colectie__cu_rel__Lab4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/SDA/Colectie (cu rel)_Lab4/cmake-build-debug",
+		"source" : "/Users/croitoruandreea/Desktop/ANUL1/sem2/SDA/Colectie (cu rel)_Lab4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,21 @@
+# ninja log v5
+2	56	1741977350230061548	Lab10_autogen/timestamp	9857b2978f05fb55
+57	962	1741977351131615463	CMakeFiles/Lab10.dir/main.cpp.o	7e5bd4cc420387b3
+36	958	1715248655071400369	CMakeFiles/Lab10.dir/service.cpp.o	c9a2bd8155d55be3
+2	56	1741977350230061548	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/timestamp	9857b2978f05fb55
+2	56	1741977350230061548	Lab10_autogen/mocs_compilation.cpp	9857b2978f05fb55
+56	460	1741977350630285022	CMakeFiles/Lab10.dir/contract.cpp.o	398fe8660fa0d00a
+30	608	1715248689469570167	CMakeFiles/Lab10.dir/teste.cpp.o	5e6b9fbbaabd8273
+2	56	1741977350230061548	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/mocs_compilation.cpp	9857b2978f05fb55
+33	1112	1715773187297790326	CMakeFiles/Lab10.dir/GUI.cpp.o	c4fb2cfc709d7ace
+56	83	1741977350255414886	CMakeFiles/Lab10.dir/Lab10_autogen/mocs_compilation.cpp.o	729d8fbf4c3da50d
+475	662	1716982332166661456	Lab10	866ab3b6acf14bf7
+36	767	1714646884535382656	CMakeFiles/Lab10.dir/repo.cpp.o	cc2a887a1fdbb5ac
+57	323	1741977350490203198	CMakeFiles/Lab10.dir/validator.cpp.o	581b0d485d0db905
+3	28	1741977691036356895	Lab10_autogen/timestamp	9857b2978f05fb55
+3	28	1741977691036356895	Lab10_autogen/mocs_compilation.cpp	9857b2978f05fb55
+3	28	1741977691036356895	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/timestamp	9857b2978f05fb55
+3	28	1741977691036356895	/Users/croitoruandreea/Desktop/ANUL1/sem2/OOP/LAB/Lab10/cmake-build-debug/Lab10_autogen/mocs_compilation.cpp	9857b2978f05fb55
+28	239	1741977691244847563	CMakeFiles/Lab10.dir/validator.cpp.o	581b0d485d0db905
+28	384	1741977691388541238	CMakeFiles/Lab10.dir/contract.cpp.o	398fe8660fa0d00a
+28	900	1741977691902585808	CMakeFiles/Lab10.dir/main.cpp.o	7e5bd4cc420387b3
