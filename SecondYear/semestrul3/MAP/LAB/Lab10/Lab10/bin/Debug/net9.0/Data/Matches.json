@@ -1,0 +1,26 @@
+[
+  {
+    "HomeTeamId": 1,
+    "AwayTeamId": 3,
+    "Date": "2024-12-22T00:00:00",
+    "HomeTeam": null,
+    "AwayTeam": null,
+    "Id": 1
+  },
+  {
+    "HomeTeamId": 2,
+    "AwayTeamId": 6,
+    "Date": "2007-12-03T00:00:00",
+    "HomeTeam": null,
+    "AwayTeam": null,
+    "Id": 2
+  },
+  {
+    "HomeTeamId": 5,
+    "AwayTeamId": 6,
+    "Date": "2003-10-01T00:00:00",
+    "HomeTeam": null,
+    "AwayTeam": null,
+    "Id": 3
+  }
+]

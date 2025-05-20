@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.examen.controller.WelcomeController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Label fx:id="welcomeLabel" text="Welcome!"/>
+    <HBox spacing="10">
+        <Label text="From Location: "/>
+        <ComboBox fx:id="fromComboBox"/>
+        <Label text="To Location: "/>
+        <ComboBox fx:id="toComboBox"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Departure Date: "/>
+        <DatePicker fx:id="datePicker"/>
+    </HBox>
+
+    <Button text="Search Flights" fx:id="searchButton" onAction="#handleSearch"/>
+    <Label> text="Zboruri" </Label>
+    <TableView fx:id="flightsTable">
+        <columns>
+            <TableColumn fx:id="fromColumn" text="From" />
+            <TableColumn fx:id="toColumn" text="To" />
+            <TableColumn fx:id="departureColumn" text="Departure Time" />
+            <TableColumn fx:id="landingColumn" text="Landing Time" />
+        </columns>
+    </TableView>
+    <Label> text="Bilete cumparate" </Label>
+    <TableView fx:id="ticketsTable">
+        <columns>
+            <TableColumn fx:id="fromColumn1" text="From" />
+            <TableColumn fx:id="toColumn1" text="To" />
+            <TableColumn fx:id="departureColumn1" text="Departure Time" />
+            <TableColumn fx:id="landingColumn1" text="Landing Time" />
+            <TableColumn fx:id="purchaseColumn" text="Purchase Time" />
+        </columns>
+    </TableView>
+    <Button text="Buy" fx:id="buyButton" onAction="#handleBuyTicket"/>
+
+
+
+</VBox>

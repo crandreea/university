@@ -1,0 +1,51 @@
+[
+  {
+    "TeamId": 1,
+    "Team": null,
+    "Name": "Eric",
+    "School": "Scoala Gimnaziala 22",
+    "Id": 1
+  },
+  {
+    "TeamId": 1,
+    "Team": null,
+    "Name": "Alex",
+    "School": "Scoala Gimnaziala 22",
+    "Id": 2
+  },
+  {
+    "TeamId": 4,
+    "Team": null,
+    "Name": "Andrei",
+    "School": "Colegiul Moise Nicoara",
+    "Id": 3
+  },
+  {
+    "TeamId": 7,
+    "Team": null,
+    "Name": "Vlad",
+    "School": "UBB Cluj",
+    "Id": 4
+  },
+  {
+    "TeamId": 2,
+    "Team": null,
+    "Name": "Mihnea",
+    "School": "Moise Nicoara",
+    "Id": 5
+  },
+  {
+    "TeamId": 3,
+    "Team": null,
+    "Name": "Marian",
+    "School": "Pedagogic",
+    "Id": 6
+  },
+  {
+    "TeamId": 6,
+    "Team": null,
+    "Name": "Paul",
+    "School": "UBB Cluj",
+    "Id": 7
+  }
+]

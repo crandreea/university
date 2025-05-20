@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../Biblioteca/ex1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab1/MediaAgency.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab2/PopulateTables.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab2/QueriesTables.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab3/Procedures.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab4/Structuri.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab4/Testare.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab5/Main.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab5/OperatiiCRUD.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/Lab5/Validari.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/exemplu_sem/Trenuri_examen/ex1.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/exemplu_sem/Trenuri_examen/ex2.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/exemplu_sem/banca.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/exemplu_sem/filme.sql" dialect="AZURE" />
+    <file url="file://$PROJECT_DIR$/exemplu_sem/restaurant.sql" dialect="AZURE" />
+  </component>
+</project>
