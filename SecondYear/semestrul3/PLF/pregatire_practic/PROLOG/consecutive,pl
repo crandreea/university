@@ -1,0 +1,17 @@
+elimina_consecutive([], []).  
+elimina_consecutive([H], [H]).  
+elimina_consecutive([H1, H2 | T], R) :-
+    H2 =:= H1 + 1,  
+    elimina_consecutive_skip(H2, T, R).
+elimina_consecutive([H1, H2 | T], [H1 | R]) :-
+    H2 =\= H1 + 1,  
+    elimina_consecutive([H2 | T], R).
+
+elimina_consecutive_skip(_, [], []).  
+elimina_consecutive_skip(Ultimul, [H | T], R) :-
+    H =:= Ultimul + 1, 
+    elimina_consecutive_skip(H, T, R).
+elimina_consecutive_skip(Ultimul, [H | T],  R) :-
+    H =\= Ultimul + 1,  
+    elimina_consecutive([H | T], R).
+

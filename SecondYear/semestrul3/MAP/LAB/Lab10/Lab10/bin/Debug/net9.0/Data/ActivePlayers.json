@@ -1,0 +1,29 @@
+[
+  {
+    "PlayerId": 1,
+    "MatchId": 1,
+    "PointsScored": 12,
+    "Status": 1,
+    "Player": null,
+    "Match": null,
+    "Id": 1
+  },
+  {
+    "PlayerId": 3,
+    "MatchId": 1,
+    "PointsScored": 14,
+    "Status": 1,
+    "Player": null,
+    "Match": null,
+    "Id": 2
+  },
+  {
+    "PlayerId": 6,
+    "MatchId": 1,
+    "PointsScored": 14,
+    "Status": 1,
+    "Player": null,
+    "Match": null,
+    "Id": 3
+  }
+]

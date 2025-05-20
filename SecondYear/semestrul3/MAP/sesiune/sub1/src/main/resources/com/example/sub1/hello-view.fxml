@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sub1.controller.HelloController">
+<!-- Containere -->
+<TabPane fx:id="tabPane">
+    <!-- Tabul pentru înregistrare -->
+    <Tab text="Doresc sa ajut!">
+        <HBox>
+            <TableView fx:id="tableNevoi">
+                <columns>
+                    <TableColumn fx:id="colTitlu" text="Titlu"/>
+                    <TableColumn fx:id="colDescriere" text="Descriere"/>
+                    <TableColumn fx:id="colStatus" text="Status"/>
+                    <TableColumn fx:id="colDeadline" text="Deadline"/>
+                    <TableColumn fx:id="colOmInNevoie" text="Om In Nevoie"/>
+                    <TableColumn fx:id="colOmSalvator" text="Om Salvator"/>
+                </columns>
+            </TableView>
+            <TableView fx:id="tableFapteBune">
+                <columns>
+                    <TableColumn fx:id="colTitlu1" text="Titlu"/>
+                    <TableColumn fx:id="colDescriere1" text="Descriere"/>
+                    <TableColumn fx:id="colStatus1" text="Status"/>
+                    <TableColumn fx:id="colDeadline1" text="Deadline"/>
+                    <TableColumn fx:id="colOmInNevoie1" text="Om In Nevoie"/>
+                    <TableColumn fx:id="colOmSalvator1" text="Om Salvator"/>
+                </columns>
+            </TableView>
+        </HBox>
+    </Tab>
+
+    <!-- Tabul pentru login -->
+    <Tab text="Doresc sa fiu ajutat!">
+        <VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+            <Label text="Titlu:" />
+            <TextField fx:id="fieldTitlu" promptText="Introduceți titlul nevoii" />
+
+            <Label text="Descriere:" />
+            <TextArea fx:id="fieldDescriere" promptText="Descrieți nevoia dvs." prefHeight="100" />
+
+            <Label text="Deadline:" />
+            <DatePicker fx:id="datePickerDeadline" />
+
+            <Button text="Salvează" fx:id="btnSalveaza" />
+        </VBox>
+    </Tab>
+</TabPane>
+</AnchorPane>

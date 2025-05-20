@@ -1,0 +1,78 @@
+[
+  {
+    "Name": "Huston Rockets",
+    "Id": 1
+  },
+  {
+    "Name": "Los Angeles Lakers",
+    "Id": 2
+  },
+  {
+    "Name": "LA Clippers",
+    "Id": 3
+  },
+  {
+    "Name": "Chicago Bulls",
+    "Id": 4
+  },
+  {
+    "Name": "Cleveland Cavaliers",
+    "Id": 5
+  },
+  {
+    "Name": "Utah Jazz",
+    "Id": 6
+  },
+  {
+    "Name": "New Orleans Pelicans",
+    "Id": 7
+  },
+  {
+    "Name": "Indiana Pacers",
+    "Id": 8
+  },
+  {
+    "Name": "Toronto Raptors",
+    "Id": 9
+  },
+  {
+    "Name": "Charlotte Hornets",
+    "Id": 10
+  },
+  {
+    "Name": "Phoenix Suns",
+    "Id": 11
+  },
+  {
+    "Name": "Portland TrailBlazers",
+    "Id": 12
+  },
+  {
+    "Name": "Golden State Warriors",
+    "Id": 13
+  },
+  {
+    "Name": "Washington Wizzards",
+    "Id": 14
+  },
+  {
+    "Name": "San Antonio Spurs",
+    "Id": 15
+  },
+  {
+    "Name": "Orlando Magic",
+    "Id": 16
+  },
+  {
+    "Name": "Atlanta Hawks",
+    "Id": 17
+  },
+  {
+    "Name": "Sacramento Kings",
+    "Id": 18
+  },
+  {
+    "Name": "UCluj",
+    "Id": 19
+  }
+]

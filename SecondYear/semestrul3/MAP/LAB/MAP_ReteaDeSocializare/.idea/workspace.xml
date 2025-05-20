@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9c0fc23-7931-4a8e-9b59-364384a06f49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab3/Procedures.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab4/Structuri.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab4/Testare.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab5/Main.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab5/OperatiiCRUD.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab5/Validari.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Trenuri_examen/ex1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Trenuri_examen/ex2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/.idea.Lab10/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/.idea.Lab10/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/.idea.Lab10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/UI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/ActivePlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/Match.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/PlayerStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/domain/Team.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/files/activeplayers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/files/matches.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/files/players.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/files/students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/files/teams.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/ActivePlayerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/FileRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/MatchRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/PlayerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/StudentRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/repository/TeamRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab10/Lab10/service/GeneralService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MAP_ReteaDeSocializare.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/libs/postgresql-42.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/database/AbstractDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/database/PrietenieDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/database/UtilizatorDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/libs/postgresql-42.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/GlobalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/HeaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/ProfileView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Prietenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/ReplyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Tuplu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/Utilizator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/dto/UserFilterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/MessageValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/NotificationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/PrietenieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/UtilizatorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/domain/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/database/AbstractDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/database/MessageDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/database/NotificationDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/database/PrietenieDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/database/UtilizatorDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/file/AbstractFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/file/PrietenieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/file/UtilizatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/memory/InMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/repository/paging/PagingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/CommunityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/NetworkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/PrietenieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/ui/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/PopupNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/SceneLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/StageLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/UserSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/WindowManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/paging/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/ubb/scs/map/utils/paging/Pageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/header-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/home-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/layout-default.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/messages.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/notification-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/profile-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/sign_up.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/accept.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/profile_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/request.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/search_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/images/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sem5/sem5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sem_4/sem_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAZE/MediaAgency/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab1/MediaAgency.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab1/MediaAgency.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab2/PopulateTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab2/PopulateTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab2/QueriesTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../BAZE/MediaAgency/Lab2/QueriesTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/data/friends.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/data/friends.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/data/utilizatori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/data/utilizatori.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Prietenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Prietenie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Tuplu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Tuplu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Utilizator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/Utilizator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/validators/PrietenieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/validators/PrietenieValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/validators/UtilizatorValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/domain/validators/UtilizatorValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/AbstractFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/PrietenieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/PrietenieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/UtilizatorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/file/UtilizatorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/memory/InMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/repository/memory/InMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/CommunityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/CommunityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/NetworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/ui/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReteaDeSocializare/src/main/java/ubb/scs/map/ui/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem5/src/GradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem5/src/GradeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem5/src/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem5/src/domain/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem5/src/domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem5/src/domain/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem5/src/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem5/src/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem5/src/domain/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem5/src/domain/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem_4/src/Arie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem_4/src/Arie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem_4/src/Cerc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem_4/src/Cerc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem_4/src/Patrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem_4/src/Patrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PS/.ipynb_checkpoints/Lab2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../PS/.ipynb_checkpoints/Lab2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PS/Lab2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../PS/Lab2.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pB4oXM8PVpyHzfWKvD9ltiSo0S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/croitoruandreea/Desktop/ANUL2/MAP/MAP_ReteaDeSocializare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9c0fc23-7931-4a8e-9b59-364384a06f49" name="Changes" comment="" />
+      <created>1732226309285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732226309285</updated>
+      <workItem from="1732226310391" duration="30000" />
+      <workItem from="1734197209616" duration="3429000" />
+      <workItem from="1734435200482" duration="636000" />
+      <workItem from="1734695696966" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

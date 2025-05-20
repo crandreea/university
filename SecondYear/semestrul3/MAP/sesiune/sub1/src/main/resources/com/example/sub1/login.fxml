@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sub1.controller.LoginController">
+    <!-- Containere -->
+    <TabPane fx:id="tabPane">
+        <!-- Tabul pentru înregistrare -->
+        <Tab text="Înregistrare">
+            <VBox spacing="10">
+                <Label text="Nume:"/>
+                <TextField fx:id="nameField" promptText="Introduceți numele"/>
+
+                <Label text="Prenume:"/>
+                <TextField fx:id="surnameField" promptText="Introduceți prenumele"/>
+
+                <Label text="Username:"/>
+                <TextField fx:id="usernameField" promptText="Introduceți username-ul"/>
+
+                <Label text="Parolă:"/>
+                <PasswordField fx:id="passwordField" promptText="Introduceți parola"/>
+
+                <Label text="Oraș:"/>
+                <ComboBox fx:id="orasComboBox" promptText="Alegeți un oraș">
+                </ComboBox>
+
+                <Label text="Strada:"/>
+                <TextField fx:id="stradaField" promptText="Introduceți strada"/>
+
+                <Label text="Număr Strada:"/>
+                <TextField fx:id="nrStradaField" promptText="Introduceți numărul străzii"/>
+
+                <Label text="Telefon:"/>
+                <TextField fx:id="telefonField" promptText="Introduceți numărul de telefon"/>
+
+                <Button text="Înregistrează-te" onAction="#handleRegistration"/>
+            </VBox>
+        </Tab>
+
+        <!-- Tabul pentru login -->
+        <Tab text="Autentificare">
+            <content>
+                <VBox spacing="10">
+                    <Label text="Alegeți username-ul:"/>
+                    <ListView fx:id="userListView" prefHeight="200">
+                        <!-- Listele de utilizatori vor fi populată din baza de date -->
+                    </ListView>
+
+                    <Button fx:id="buttonAutentificare" text="Autentifică-te" onAction="#handleLogin"/>
+                </VBox>
+            </content>
+        </Tab>
+    </TabPane>
+</AnchorPane>
