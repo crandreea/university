@@ -1,0 +1,197 @@
+syntax = "proto3";
+option java_package = "ro.mpp2025.javaprojectui.gRPCprotocol";
+option java_multiple_files = true;
+
+option csharp_namespace = "Networking.gRPCprotocol";
+
+// ENUMURI CERERI + RASPUNSURI
+enum RequestType{
+  LOGIN = 0;
+  LOGOUT = 1;
+  GET_PROBE = 2;
+  GET_ORGANIZATORI = 3;
+  SEARCH_PARTICIPANTS = 4;
+  GET_PROBE_DTO = 5;
+  GET_PROBA_BY_NAME = 6;
+  GET_PROBA_BY_NAME_AND_RANGE = 7;
+  GET_VARSTA_BY_RANGE = 8;
+  FIND_PARTICIPANT_BY_CNP = 9;
+  REFRESH_PROBE_STATISTICS = 10;
+  REGISTER = 11;
+}
+
+enum ResponseType{
+  OK = 0;
+  ERROR = 1;
+  GET_PROBE_RESP = 2;
+  GET_ORGANIZATORI_RESP = 3;
+  SEARCH_PARTICIPANTS_RESP = 4;
+  GET_PROBE_DTO_RESP = 5;
+  GET_PROBA_BY_NAME_RESP = 6;
+  GET_PROBA_BY_NAME_AND_RANGE_RESP = 7;
+  GET_VARSTA_BY_RANGE_RESP = 8;
+  FIND_PARTICIPANT_BY_CNP_RESP = 9;
+  REGISTER_RESP = 10;
+  UPDATE_INSCRIERE = 11;
+}
+
+// ENTITATI DE BAZA
+message Organizator {
+  int32 id = 1;
+  string username = 2;
+  string password = 3;
+}
+
+message CategorieVarsta {
+  int32 id = 1;
+  int32 varstaMinima = 2;
+  int32 varstaMaxima = 3;
+}
+
+message Participant {
+  int32 id = 1;
+  string nume = 2;
+  string cnp = 3;
+}
+
+message Proba {
+  int32 id = 1;
+  string tip = 2;
+  CategorieVarsta range = 3;
+}
+
+message ProbaDTO{
+  int32 id = 1;
+  Proba proba = 2;
+  int32 count = 3;
+}
+
+message ParticipantDTO{
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+}
+
+message Inscriere{
+  Participant participant = 1;
+  Proba proba = 2;
+}
+
+// CERERI SPECIALIZATE
+message LoginRequest{
+  Organizator org = 1;
+}
+
+message LogoutRequest{
+  Organizator org = 1;
+}
+
+message ProbaByNameRequest{
+  string name = 1;
+}
+
+message ProbaByNameAndRangeRequest{
+  string name = 1;
+  int32 range = 2;
+}
+
+message VarstaByRangeRequest{
+  string category = 1;
+}
+
+message SearchParticipantsRequest{
+  Proba proba = 1;
+  CategorieVarsta range = 2;
+}
+
+message FindParticipantByCNPRequest{
+  string cnp = 1;
+}
+
+message RegisterRequest{
+  string name = 1;
+  string cnp = 2;
+  string event1 = 3;
+  string event2 = 4;
+  string range = 5;
+}
+
+// RASPUNSURI SPECIALIZATE
+message OrganizatorResponse {
+  Organizator organizator = 1;
+}
+
+message ProbaListResponse {
+  repeated Proba probe = 1;
+}
+
+message OrganizatoriListResponse {
+  repeated Organizator organizatori = 1;
+}
+
+message ProbaDTOListResponse {
+  repeated ProbaDTO probeDTO = 1;
+}
+
+message ParticipantDTOListResponse {
+  repeated ParticipantDTO probeDTO = 1;
+}
+
+message ProbaResponse {
+  Proba proba = 1;
+}
+
+message CategorieVarstaResponse {
+  CategorieVarsta categorieVarsta = 1;
+}
+
+message ParticipantResponse {
+  Participant participant = 1;
+}
+
+message RegisterResponse {
+  string result = 1;
+}
+
+message ErrorResponse {
+  string errorMessage = 1;
+}
+
+// MESAJE PRINCIPALE
+message ProjectRequest {
+  RequestType type = 1;
+
+  oneof payload{
+    LoginRequest loginRequest = 2;
+    LogoutRequest logoutRequest = 3;
+    ProbaByNameRequest probaByNameRequest = 4;
+    ProbaByNameAndRangeRequest probaByNameAndRangeRequest = 5;
+    VarstaByRangeRequest varstaByRangeRequest = 6;
+    SearchParticipantsRequest searchParticipantsRequest = 7;
+    FindParticipantByCNPRequest findParticipantByCNPRequest = 8;
+    RegisterRequest registerRequest = 9;
+  }
+}
+
+message ProjectResponse {
+  ResponseType type = 1;
+  string errorMessage = 2;
+
+  oneof payload {
+    OrganizatorResponse organizatorResponse = 3;
+    ProbaListResponse probaListResponse = 4;
+    OrganizatoriListResponse organizatoriListResponse = 5;
+    ProbaDTOListResponse probaDTOListResponse = 6;
+    ProbaResponse probaResponse = 7;
+    ParticipantDTOListResponse participantDTOListResponse = 8;
+    CategorieVarstaResponse categorieVarstaResponse = 9;
+    ParticipantResponse participantResponse = 10;
+    RegisterResponse registerResponse = 11;
+    Inscriere inscriereUpdate = 12;
+  }
+}
+
+// SERVICIUL RPC
+service ProjectService{
+  rpc Connect(stream ProjectRequest) returns (stream ProjectResponse);
+}

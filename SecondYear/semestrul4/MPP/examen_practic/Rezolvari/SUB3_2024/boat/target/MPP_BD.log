@@ -1,0 +1,1449 @@
+19 Jun 2025 23:06:56,642 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:06:56,643 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:06:56,651 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 52 initializeConnection - Error initializing connection to localhost:55556: Connection refused
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.initializeConnection(ProjectServicesRpcProxy.java:44) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.<init>(ProjectServicesRpcProxy.java:38) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.client.StartRpcClient.start(StartRpcClient.java:45) ~[main/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx.graphics.jar:?]
+19 Jun 2025 23:07:56,534 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:07:56,535 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:07:56,536 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:07:56,945 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:07:56,947 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:07:56,949 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:07:56,950 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:07:56,950 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:07:56,956 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:07:56,956 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:08:03,244 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:08:03,245 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:08:03,250 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:08:03,253 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:08:03,254 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:08:03,255 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:08:03,255 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:08:03,832 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2faffac6
+19 Jun 2025 23:08:04,853 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1eca159f
+19 Jun 2025 23:08:05,856 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1fa9a570
+19 Jun 2025 23:08:06,859 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f800589
+19 Jun 2025 23:08:07,865 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18557a03
+19 Jun 2025 23:08:08,872 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@56fde27b
+19 Jun 2025 23:08:09,878 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ad4ff1
+19 Jun 2025 23:08:10,884 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4bcebea0
+19 Jun 2025 23:08:11,889 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@787850b8
+19 Jun 2025 23:08:12,893 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@412f8bf6
+19 Jun 2025 23:08:13,899 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2f1386e5
+19 Jun 2025 23:08:14,905 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11160619
+19 Jun 2025 23:08:15,909 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b516913
+19 Jun 2025 23:08:16,914 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@169c37b4
+19 Jun 2025 23:08:17,921 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@250bbf2c
+19 Jun 2025 23:08:18,928 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48c435a
+19 Jun 2025 23:08:19,934 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24b5ab29
+19 Jun 2025 23:08:20,940 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5363199c
+19 Jun 2025 23:08:21,946 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b692e03
+19 Jun 2025 23:08:22,951 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d992ea7
+19 Jun 2025 23:08:23,957 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44fc28de
+19 Jun 2025 23:08:24,965 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f986624
+19 Jun 2025 23:08:25,969 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6de348e2
+19 Jun 2025 23:08:26,971 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@698bbfef
+19 Jun 2025 23:08:27,976 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4c14c0d8
+19 Jun 2025 23:08:28,980 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@713638
+19 Jun 2025 23:08:29,986 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77a2ca8c
+19 Jun 2025 23:08:30,991 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@43627750
+19 Jun 2025 23:08:31,994 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@291a7de4
+19 Jun 2025 23:08:33,001 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@20535e09
+19 Jun 2025 23:08:34,006 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@41c40625
+19 Jun 2025 23:08:35,011 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11cc21ba
+19 Jun 2025 23:08:35,497 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:08:35,498 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:08:35,503 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:08:35,504 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:08:35,504 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:08:35,506 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:08:35,506 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:08:36,017 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6b439b3a
+19 Jun 2025 23:08:37,022 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@515a334d
+19 Jun 2025 23:08:38,027 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@30cee26d
+19 Jun 2025 23:08:39,032 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40ffd43f
+19 Jun 2025 23:08:40,036 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37921d51
+19 Jun 2025 23:08:41,039 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37d280b5
+19 Jun 2025 23:08:42,045 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7048c1a8
+19 Jun 2025 23:08:42,469 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@233ac656
+19 Jun 2025 23:08:43,046 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4e28adb2
+19 Jun 2025 23:08:43,476 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2dfd2c41
+19 Jun 2025 23:08:44,053 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@69f759b3
+19 Jun 2025 23:08:44,479 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@29c2ad26
+19 Jun 2025 23:08:45,060 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a03ab10
+19 Jun 2025 23:08:45,479 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6cc0267a
+19 Jun 2025 23:08:46,062 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7cf06679
+19 Jun 2025 23:08:46,486 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@19bd55c2
+19 Jun 2025 23:08:47,068 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@773e0168
+19 Jun 2025 23:08:47,487 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5de6ed90
+19 Jun 2025 23:08:48,073 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24d7f4fd
+19 Jun 2025 23:08:48,492 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6171c097
+19 Jun 2025 23:08:49,078 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@73db905c
+19 Jun 2025 23:08:49,499 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@cefd935
+19 Jun 2025 23:08:50,084 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c67e3f0
+19 Jun 2025 23:08:50,501 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f0f9e2f
+19 Jun 2025 23:08:51,090 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@bd58655
+19 Jun 2025 23:08:51,507 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@156f7633
+19 Jun 2025 23:08:52,096 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@10beebce
+19 Jun 2025 23:08:52,510 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7a756971
+19 Jun 2025 23:08:53,103 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3fc8c0f5
+19 Jun 2025 23:08:53,516 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@8a1217b
+19 Jun 2025 23:08:54,110 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c03dc9f
+19 Jun 2025 23:08:54,518 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b5c38a6
+19 Jun 2025 23:08:55,112 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b430464
+19 Jun 2025 23:08:55,526 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@656c0910
+19 Jun 2025 23:08:56,119 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4c447a59
+19 Jun 2025 23:08:56,532 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3403ca2d
+19 Jun 2025 23:08:57,123 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35f2c44c
+19 Jun 2025 23:08:57,535 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35a88f2f
+19 Jun 2025 23:08:58,129 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@27871149
+19 Jun 2025 23:08:58,541 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5fdb0834
+19 Jun 2025 23:08:59,133 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14d451f9
+19 Jun 2025 23:08:59,547 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5a7aae56
+19 Jun 2025 23:09:00,139 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7bad7788
+19 Jun 2025 23:09:00,550 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@70824596
+19 Jun 2025 23:09:01,141 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@585e1c15
+19 Jun 2025 23:09:01,553 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1a26d5e
+19 Jun 2025 23:09:02,146 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@474c530e
+19 Jun 2025 23:09:02,559 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6bf4ff6
+19 Jun 2025 23:09:03,153 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@71a18987
+19 Jun 2025 23:09:03,566 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@9b85969
+19 Jun 2025 23:09:04,157 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6120a10c
+19 Jun 2025 23:09:04,568 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6b74033d
+19 Jun 2025 23:09:05,164 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49b6b789
+19 Jun 2025 23:09:05,572 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@792e5b90
+19 Jun 2025 23:09:06,171 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6cc75992
+19 Jun 2025 23:09:06,578 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5127bbc
+19 Jun 2025 23:09:07,175 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1157083c
+19 Jun 2025 23:09:07,583 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4eaa1966
+19 Jun 2025 23:09:08,179 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@759be3db
+19 Jun 2025 23:09:08,588 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@50c8665
+19 Jun 2025 23:09:09,182 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@9ed081e
+19 Jun 2025 23:09:09,594 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@e75af8f
+19 Jun 2025 23:09:10,187 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5fb0db78
+19 Jun 2025 23:09:10,595 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@182cea66
+19 Jun 2025 23:09:11,190 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@760f3e5a
+19 Jun 2025 23:09:11,597 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d3a12c
+19 Jun 2025 23:09:12,193 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5ca08e7b
+19 Jun 2025 23:09:12,603 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@678d203d
+19 Jun 2025 23:09:13,195 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3decd009
+19 Jun 2025 23:09:13,605 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44a7e294
+19 Jun 2025 23:09:14,202 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@64deb7d7
+19 Jun 2025 23:09:14,610 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3ba75fbc
+19 Jun 2025 23:09:15,207 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6b2cb8f8
+19 Jun 2025 23:09:15,612 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@20665325
+19 Jun 2025 23:09:16,213 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@33a720b0
+19 Jun 2025 23:09:16,617 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e6403dc
+19 Jun 2025 23:09:17,219 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6810c255
+19 Jun 2025 23:09:17,620 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@552cf7c6
+19 Jun 2025 23:09:18,219 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7961a08f
+19 Jun 2025 23:09:18,621 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@54f70860
+19 Jun 2025 23:09:19,225 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77043c23
+19 Jun 2025 23:09:19,627 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@469a86a0
+19 Jun 2025 23:09:20,227 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7d2c20d3
+19 Jun 2025 23:09:20,633 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48ee074c
+19 Jun 2025 23:09:21,233 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@13c04749
+19 Jun 2025 23:09:21,640 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ace4b50
+19 Jun 2025 23:09:22,236 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@67d1e866
+19 Jun 2025 23:09:22,646 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1696f861
+19 Jun 2025 23:09:23,241 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31e2359b
+19 Jun 2025 23:09:23,652 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42bc395
+19 Jun 2025 23:09:24,248 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2dd4a1cc
+19 Jun 2025 23:09:24,654 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3c47603b
+19 Jun 2025 23:09:25,254 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3cbf5130
+19 Jun 2025 23:09:25,660 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34db3828
+19 Jun 2025 23:09:26,258 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@54450c19
+19 Jun 2025 23:09:26,666 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@15af9b22
+19 Jun 2025 23:09:27,284 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@742bb5e7
+19 Jun 2025 23:09:27,672 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f42c569
+19 Jun 2025 23:09:28,299 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7c79b06f
+19 Jun 2025 23:09:28,678 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48032202
+19 Jun 2025 23:09:29,302 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a095801
+19 Jun 2025 23:09:29,680 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@25f45952
+19 Jun 2025 23:09:30,308 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@46d0be9d
+19 Jun 2025 23:09:30,686 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ceba045
+19 Jun 2025 23:09:31,314 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6ffdaf2d
+19 Jun 2025 23:09:31,690 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@155b4d3c
+19 Jun 2025 23:09:32,317 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5eb69075
+19 Jun 2025 23:09:32,693 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44997ea7
+19 Jun 2025 23:09:33,320 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e0f12f2
+19 Jun 2025 23:09:33,700 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@432081af
+19 Jun 2025 23:09:34,323 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d6875f8
+19 Jun 2025 23:09:34,705 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52d8f806
+19 Jun 2025 23:09:35,328 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6f6e2bbf
+19 Jun 2025 23:09:35,710 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1da57dcc
+19 Jun 2025 23:09:36,333 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5312b1f
+19 Jun 2025 23:09:36,716 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@12464499
+19 Jun 2025 23:09:37,339 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@537f31c9
+19 Jun 2025 23:09:37,722 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@55ac9287
+19 Jun 2025 23:09:38,343 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7d1659eb
+19 Jun 2025 23:09:38,726 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40a158fc
+19 Jun 2025 23:09:39,344 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@633bb625
+19 Jun 2025 23:09:39,732 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@765c1639
+19 Jun 2025 23:09:40,348 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6fde008e
+19 Jun 2025 23:09:40,735 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@561ef6e7
+19 Jun 2025 23:09:41,351 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@450595c5
+19 Jun 2025 23:09:41,737 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@67976e09
+19 Jun 2025 23:09:42,357 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@a13558f
+19 Jun 2025 23:09:42,743 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2d3bacbf
+19 Jun 2025 23:09:43,362 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34274076
+19 Jun 2025 23:09:43,746 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3b409aff
+19 Jun 2025 23:09:44,365 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2be2fc0c
+19 Jun 2025 23:09:44,751 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1a48eabe
+19 Jun 2025 23:09:45,370 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42a0ff08
+19 Jun 2025 23:09:45,757 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@46f328d8
+19 Jun 2025 23:09:46,373 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@528f65fe
+19 Jun 2025 23:09:46,763 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@365d2aed
+19 Jun 2025 23:09:47,379 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5c25ab29
+19 Jun 2025 23:09:47,768 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@975c9bb
+19 Jun 2025 23:09:48,384 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@609b3e3d
+19 Jun 2025 23:09:48,775 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5435cf31
+19 Jun 2025 23:09:49,388 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2586c599
+19 Jun 2025 23:09:49,780 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b5f9887
+19 Jun 2025 23:09:50,394 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c8fe442
+19 Jun 2025 23:09:50,785 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@540ac143
+19 Jun 2025 23:09:51,400 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7d827a19
+19 Jun 2025 23:09:51,789 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7395f268
+19 Jun 2025 23:09:52,406 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44d1c942
+19 Jun 2025 23:09:52,795 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@923f76c
+19 Jun 2025 23:09:53,408 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@57e8664c
+19 Jun 2025 23:09:53,801 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ecfdd6f
+19 Jun 2025 23:09:54,414 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24362507
+19 Jun 2025 23:09:54,804 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7c4d1b2c
+19 Jun 2025 23:09:55,418 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a0ad12a
+19 Jun 2025 23:09:55,809 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2097a07f
+19 Jun 2025 23:09:56,424 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5b8af0
+19 Jun 2025 23:09:56,816 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3699bb96
+19 Jun 2025 23:09:57,427 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@141556b1
+19 Jun 2025 23:09:57,822 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@363d3c8f
+19 Jun 2025 23:09:58,434 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11e4729
+19 Jun 2025 23:09:58,829 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22bdc51f
+19 Jun 2025 23:09:59,441 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1d0155a1
+19 Jun 2025 23:09:59,832 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f341d6f
+19 Jun 2025 23:10:00,446 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@41d150fb
+19 Jun 2025 23:10:00,835 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@448a4414
+19 Jun 2025 23:10:01,452 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f4f36ae
+19 Jun 2025 23:10:01,841 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b0cd14e
+19 Jun 2025 23:10:02,456 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c1b0161
+19 Jun 2025 23:17:52,168 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:17:52,169 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:18:24,544 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:18:24,545 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:18:24,545 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:18:24,939 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:18:24,941 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:18:24,943 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:18:24,944 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:18:24,944 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:18:24,950 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:18:24,950 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:18:42,769 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:18:42,770 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:18:42,778 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:18:42,786 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:18:42,786 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:18:42,790 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:18:42,791 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:19:10,293 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@a1ac0d3
+19 Jun 2025 23:19:11,300 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3b5aaf11
+19 Jun 2025 23:19:11,703 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:19:11,705 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:19:11,716 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:19:11,719 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:19:11,719 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:19:11,719 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:19:11,721 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:19:12,308 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@36f57dc9
+19 Jun 2025 23:19:13,309 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6a353f9c
+19 Jun 2025 23:19:14,315 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5e3b94ee
+19 Jun 2025 23:19:15,320 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@30778a1f
+19 Jun 2025 23:19:16,325 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2df1b2ed
+19 Jun 2025 23:19:16,926 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 123 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass', id=null}}
+19 Jun 2025 23:19:16,966 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 132 sendRequestAndWait - Error sending request or flushing output: model.User
+java.io.NotSerializableException: model.User
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.sendRequestAndWait(ProjectServicesRpcProxy.java:125) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.login(ProjectServicesRpcProxy.java:151) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.client.gui.Login.handleConfirmLoginClick(Login.java:53) ~[main/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx.base.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx.base.jar:?]
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx.fxml.jar:?]
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1858) ~[javafx.fxml.jar:?]
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731) ~[javafx.fxml.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx.base.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:199) ~[javafx.base.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8963) ~[javafx.graphics.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx.controls.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx.controls.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx.controls.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:199) ~[javafx.base.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3987) ~[javafx.graphics.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1893) ~[javafx.graphics.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2711) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:430) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:560) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:946) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:128) [javafx.graphics.jar:?]
+19 Jun 2025 23:19:16,971 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 84 closeConnection - Closing connection to localhost:55556
+19 Jun 2025 23:19:16,973 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 98 closeConnection - Socket connection closed.
+19 Jun 2025 23:19:16,975 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@619fd61b
+19 Jun 2025 23:19:17,328 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e7ba110
+19 Jun 2025 23:19:17,982 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2563b634
+19 Jun 2025 23:19:18,334 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6ce5d4d5
+19 Jun 2025 23:19:18,985 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1100aecf
+19 Jun 2025 23:19:19,338 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@60ce8c24
+19 Jun 2025 23:19:19,990 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2a8c40bf
+19 Jun 2025 23:19:20,345 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40083c0a
+19 Jun 2025 23:19:20,997 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35bc64fb
+19 Jun 2025 23:19:21,349 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@73c8763a
+19 Jun 2025 23:19:22,001 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@d56a66e
+19 Jun 2025 23:19:22,355 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31c947ea
+19 Jun 2025 23:19:23,007 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@193407dd
+19 Jun 2025 23:19:23,360 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2572425b
+19 Jun 2025 23:19:24,013 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@51f535fc
+19 Jun 2025 23:19:24,366 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@241bc293
+19 Jun 2025 23:19:25,020 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b81885
+19 Jun 2025 23:19:25,368 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1452098c
+19 Jun 2025 23:19:26,024 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f65bbca
+19 Jun 2025 23:19:26,373 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6fdffafb
+19 Jun 2025 23:19:27,028 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d65914
+19 Jun 2025 23:19:27,375 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58081dc1
+19 Jun 2025 23:19:28,033 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7e74c6e7
+19 Jun 2025 23:19:28,377 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@227d4309
+19 Jun 2025 23:19:29,035 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@394f859c
+19 Jun 2025 23:19:29,380 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@266730a3
+19 Jun 2025 23:19:30,040 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2be6d294
+19 Jun 2025 23:19:30,385 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@367f1eb6
+19 Jun 2025 23:19:31,044 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1fcc3005
+19 Jun 2025 23:19:31,389 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e81ebad
+19 Jun 2025 23:19:32,049 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47578ee5
+19 Jun 2025 23:19:32,396 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@662c807f
+19 Jun 2025 23:19:33,051 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@27190f6
+19 Jun 2025 23:19:33,399 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@79d15631
+19 Jun 2025 23:19:34,055 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1f1e805e
+19 Jun 2025 23:19:34,400 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37956d13
+19 Jun 2025 23:19:35,059 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@612cc7a0
+19 Jun 2025 23:19:35,404 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@166834cf
+19 Jun 2025 23:19:36,065 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1a775dc6
+19 Jun 2025 23:19:36,410 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14c56105
+19 Jun 2025 23:19:37,068 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@148f985e
+19 Jun 2025 23:19:37,412 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@67d6cd72
+19 Jun 2025 23:19:38,073 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ff8e6e1
+19 Jun 2025 23:19:38,414 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7bb7d96e
+19 Jun 2025 23:19:39,076 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@786e2f79
+19 Jun 2025 23:19:39,420 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c2e549b
+19 Jun 2025 23:19:40,081 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58d7d4df
+19 Jun 2025 23:19:40,421 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@135cd552
+19 Jun 2025 23:19:41,084 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3072faf3
+19 Jun 2025 23:19:41,424 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42b02716
+19 Jun 2025 23:19:42,090 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@885cdf2
+19 Jun 2025 23:19:42,429 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@709ea87
+19 Jun 2025 23:19:43,092 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1992e7c
+19 Jun 2025 23:19:43,431 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@59ddec71
+19 Jun 2025 23:19:44,094 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@670e63bc
+19 Jun 2025 23:19:44,436 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c5e545d
+19 Jun 2025 23:19:45,099 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@408ca8cc
+19 Jun 2025 23:19:45,441 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6f954e57
+19 Jun 2025 23:19:46,101 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@66c01772
+19 Jun 2025 23:19:46,446 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2780ccf0
+19 Jun 2025 23:19:47,106 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e622f18
+19 Jun 2025 23:19:47,451 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11881215
+19 Jun 2025 23:19:48,113 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a65aaeb
+19 Jun 2025 23:19:48,457 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4faa40c5
+19 Jun 2025 23:19:49,117 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1f8abfa3
+19 Jun 2025 23:19:49,462 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@a885891
+19 Jun 2025 23:19:50,123 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@791750a7
+19 Jun 2025 23:19:50,466 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b4ee27c
+19 Jun 2025 23:19:51,129 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@46b2aa72
+19 Jun 2025 23:19:51,467 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7a8755ba
+19 Jun 2025 23:19:52,131 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@511772bd
+19 Jun 2025 23:19:52,471 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@67369e47
+19 Jun 2025 23:19:53,133 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1baaa89b
+19 Jun 2025 23:19:53,472 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2fb20ee0
+19 Jun 2025 23:19:54,139 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58fb4121
+19 Jun 2025 23:19:54,474 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@73334468
+19 Jun 2025 23:19:55,145 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b499176
+19 Jun 2025 23:19:55,480 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3359e531
+19 Jun 2025 23:19:56,149 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@61218838
+19 Jun 2025 23:19:56,485 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@604e81bb
+19 Jun 2025 23:19:57,155 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2f010af7
+19 Jun 2025 23:19:57,486 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5fb4565c
+19 Jun 2025 23:19:58,161 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2d71b47f
+19 Jun 2025 23:19:58,492 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@364d59c6
+19 Jun 2025 23:19:59,167 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6af44286
+19 Jun 2025 23:19:59,496 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ac14253
+19 Jun 2025 23:20:00,173 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77977a8
+19 Jun 2025 23:20:00,502 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5e1641e9
+19 Jun 2025 23:20:01,174 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@20089302
+19 Jun 2025 23:20:01,505 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@236dfac1
+19 Jun 2025 23:20:02,179 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@fa0930
+19 Jun 2025 23:20:02,510 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7fb21403
+19 Jun 2025 23:20:03,185 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48529bdb
+19 Jun 2025 23:20:03,515 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3fa1127c
+19 Jun 2025 23:20:04,191 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@45a614e
+19 Jun 2025 23:20:04,518 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@53541568
+19 Jun 2025 23:20:05,197 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@60ae6244
+19 Jun 2025 23:20:05,521 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1fa35631
+19 Jun 2025 23:20:06,203 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@30cd44e8
+19 Jun 2025 23:20:06,527 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@705e4bca
+19 Jun 2025 23:20:07,208 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6c9d8d69
+19 Jun 2025 23:20:07,532 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47db954f
+19 Jun 2025 23:20:08,214 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3b9ad1a5
+19 Jun 2025 23:20:08,538 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34d73789
+19 Jun 2025 23:20:09,216 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28b538d0
+19 Jun 2025 23:20:09,542 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31c0edfc
+19 Jun 2025 23:20:10,222 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7205d32a
+19 Jun 2025 23:20:10,548 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@33c2e015
+19 Jun 2025 23:20:11,229 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@72f3eec6
+19 Jun 2025 23:20:11,552 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28286acf
+19 Jun 2025 23:20:12,232 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1f890ec4
+19 Jun 2025 23:20:12,558 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@254e7b3c
+19 Jun 2025 23:20:13,233 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1e7bc65d
+19 Jun 2025 23:20:13,561 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1357dd64
+19 Jun 2025 23:20:14,238 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42bbca3b
+19 Jun 2025 23:20:14,567 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37314553
+19 Jun 2025 23:20:15,244 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2fd38974
+19 Jun 2025 23:20:15,573 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5c242f68
+19 Jun 2025 23:20:16,249 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@787b5d64
+19 Jun 2025 23:20:16,575 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@ae5284b
+19 Jun 2025 23:20:17,255 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38723518
+19 Jun 2025 23:20:17,581 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2774688e
+19 Jun 2025 23:20:18,262 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2484ca3f
+19 Jun 2025 23:20:18,585 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ad2aaee
+19 Jun 2025 23:20:19,265 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@17af7ff2
+19 Jun 2025 23:20:19,587 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@67f089b3
+19 Jun 2025 23:20:20,271 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@359d801e
+19 Jun 2025 23:20:20,590 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44744276
+19 Jun 2025 23:20:21,275 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ceea940
+19 Jun 2025 23:20:21,596 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40c0726e
+19 Jun 2025 23:20:22,281 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1e395dd0
+19 Jun 2025 23:20:22,602 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f4a2542
+19 Jun 2025 23:20:23,284 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7285f10a
+19 Jun 2025 23:20:23,605 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c948009
+19 Jun 2025 23:20:24,288 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2bc11234
+19 Jun 2025 23:20:24,610 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a95101f
+19 Jun 2025 23:20:25,292 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@428c0aa5
+19 Jun 2025 23:20:25,614 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@9854821
+19 Jun 2025 23:20:26,298 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@160f08f9
+19 Jun 2025 23:20:26,616 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@17fb1c66
+19 Jun 2025 23:20:27,304 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b5fa693
+19 Jun 2025 23:20:27,621 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1fe74258
+19 Jun 2025 23:20:28,307 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68ac4d7e
+19 Jun 2025 23:20:28,624 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7d10ac53
+19 Jun 2025 23:20:29,314 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a57abec
+19 Jun 2025 23:20:29,630 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5ef72790
+19 Jun 2025 23:20:30,317 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24713a9f
+19 Jun 2025 23:20:30,636 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11201804
+19 Jun 2025 23:20:31,320 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@12ac7bbc
+19 Jun 2025 23:20:31,641 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34707dfa
+19 Jun 2025 23:20:32,324 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18e1032a
+19 Jun 2025 23:20:32,645 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4cfa3d13
+19 Jun 2025 23:20:33,330 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6f9ed311
+19 Jun 2025 23:20:33,649 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2bd648bb
+19 Jun 2025 23:20:34,336 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4216a9bf
+19 Jun 2025 23:20:34,655 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3aa795fd
+19 Jun 2025 23:20:35,341 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@33165bda
+19 Jun 2025 23:20:35,661 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@d8fb0fe
+19 Jun 2025 23:20:36,347 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@237ee6c1
+19 Jun 2025 23:20:36,667 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@108006f9
+19 Jun 2025 23:20:37,352 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a61bfe4
+19 Jun 2025 23:20:37,669 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@98a07c2
+19 Jun 2025 23:20:38,358 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d4db246
+19 Jun 2025 23:20:38,674 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f046373
+19 Jun 2025 23:20:39,364 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4c84f8be
+19 Jun 2025 23:20:39,677 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f7c2a2d
+19 Jun 2025 23:20:40,371 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18185701
+19 Jun 2025 23:20:40,683 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6fdb5cf5
+19 Jun 2025 23:20:41,376 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2fb14579
+19 Jun 2025 23:20:41,689 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@36b6f2db
+19 Jun 2025 23:20:42,382 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f4e0d4b
+19 Jun 2025 23:20:42,691 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1a850085
+19 Jun 2025 23:20:43,384 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@64645514
+19 Jun 2025 23:20:43,695 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4367cba
+19 Jun 2025 23:20:44,389 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3e9eb6c6
+19 Jun 2025 23:20:44,701 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31bfb43d
+19 Jun 2025 23:20:45,391 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b21b6e1
+19 Jun 2025 23:20:45,707 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@309ea8fb
+19 Jun 2025 23:20:46,396 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@64fad49b
+19 Jun 2025 23:20:46,712 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2ad1745
+19 Jun 2025 23:20:47,401 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22f0e1e5
+19 Jun 2025 23:20:47,718 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35c96806
+19 Jun 2025 23:20:48,407 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@69935bfb
+19 Jun 2025 23:20:48,724 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@799b3cde
+19 Jun 2025 23:20:49,412 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f936e96
+19 Jun 2025 23:20:49,727 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3c078a66
+19 Jun 2025 23:20:50,418 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d7f33f3
+19 Jun 2025 23:20:50,732 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@567ab59c
+19 Jun 2025 23:20:51,424 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68a51c70
+19 Jun 2025 23:20:51,737 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@280d7e0d
+19 Jun 2025 23:20:52,427 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b9ace1c
+19 Jun 2025 23:20:52,742 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@850ca1e
+19 Jun 2025 23:20:53,432 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f99e427
+19 Jun 2025 23:20:53,748 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@88425c8
+19 Jun 2025 23:20:54,438 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b4da08c
+19 Jun 2025 23:20:54,751 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b51b711
+19 Jun 2025 23:20:55,440 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@bcb7309
+19 Jun 2025 23:20:55,757 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48ef4d60
+19 Jun 2025 23:20:56,444 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@466ca642
+19 Jun 2025 23:20:56,762 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@46616e59
+19 Jun 2025 23:20:57,449 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7664da74
+19 Jun 2025 23:20:57,766 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6f62a938
+19 Jun 2025 23:20:58,451 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@500b5df4
+19 Jun 2025 23:20:58,772 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@698d62fa
+19 Jun 2025 23:20:59,454 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@883fc7
+19 Jun 2025 23:20:59,774 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5bbbb6e6
+19 Jun 2025 23:21:00,460 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2375c722
+19 Jun 2025 23:21:00,779 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@16e5086e
+19 Jun 2025 23:21:01,465 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@73920e42
+19 Jun 2025 23:21:01,784 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6c3448e3
+19 Jun 2025 23:21:02,471 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@797c1939
+19 Jun 2025 23:21:02,788 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e2c7d2d
+19 Jun 2025 23:21:03,477 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38cb67d6
+19 Jun 2025 23:21:03,794 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68a6fa88
+19 Jun 2025 23:21:04,481 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@350aeb3a
+19 Jun 2025 23:21:04,798 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@563e398a
+19 Jun 2025 23:21:05,487 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@560913c7
+19 Jun 2025 23:21:05,804 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@180300fe
+19 Jun 2025 23:21:06,489 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f256dee
+19 Jun 2025 23:21:06,809 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@15cbc3c6
+19 Jun 2025 23:21:07,494 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c33460b
+19 Jun 2025 23:21:07,815 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a66194d
+19 Jun 2025 23:21:08,500 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4e023b8c
+19 Jun 2025 23:21:08,820 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6db38be2
+19 Jun 2025 23:21:09,505 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@500b9ea0
+19 Jun 2025 23:21:09,826 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d37725a
+19 Jun 2025 23:21:10,511 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3425c352
+19 Jun 2025 23:21:10,829 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@262949c9
+19 Jun 2025 23:21:11,516 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@210d8c3
+19 Jun 2025 23:21:11,835 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5cff9030
+19 Jun 2025 23:21:12,521 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5d115d56
+19 Jun 2025 23:21:12,837 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2de2ecd6
+19 Jun 2025 23:21:13,524 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@51e326ca
+19 Jun 2025 23:21:13,840 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b11fe92
+19 Jun 2025 23:21:14,527 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4bc650f7
+19 Jun 2025 23:21:14,842 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@171a8738
+19 Jun 2025 23:21:15,528 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f945f8c
+19 Jun 2025 23:21:15,847 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37c4fbfb
+19 Jun 2025 23:21:16,531 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@183840c5
+19 Jun 2025 23:21:16,853 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@dfa2589
+19 Jun 2025 23:21:17,537 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5025e07e
+19 Jun 2025 23:21:17,859 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@796bbfca
+19 Jun 2025 23:21:18,540 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@299d5365
+19 Jun 2025 23:21:18,864 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a0bc498
+19 Jun 2025 23:21:19,541 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@441801e5
+19 Jun 2025 23:21:19,868 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2a00eb01
+19 Jun 2025 23:21:20,548 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1efc4fcb
+19 Jun 2025 23:21:20,873 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@768a45a5
+19 Jun 2025 23:21:21,551 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@61257a7a
+19 Jun 2025 23:21:21,875 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52bb2151
+19 Jun 2025 23:21:22,556 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22e01b40
+19 Jun 2025 23:21:22,878 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3670009a
+19 Jun 2025 23:21:23,562 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@26f321d0
+19 Jun 2025 23:21:23,881 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b85adb6
+19 Jun 2025 23:21:24,567 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5a8db0d2
+19 Jun 2025 23:21:24,887 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f86640e
+19 Jun 2025 23:21:25,573 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@10b1f753
+19 Jun 2025 23:21:25,891 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34bc6b06
+19 Jun 2025 23:21:26,577 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32a9d41e
+19 Jun 2025 23:21:26,895 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2fec9db
+19 Jun 2025 23:21:27,583 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@deb8e3a
+19 Jun 2025 23:21:27,900 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34203c2f
+19 Jun 2025 23:21:28,586 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a57b475
+19 Jun 2025 23:21:28,903 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@380a88b1
+19 Jun 2025 23:21:29,588 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@25c3d703
+19 Jun 2025 23:21:29,909 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6f3920ed
+19 Jun 2025 23:21:30,594 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@59b6ee81
+19 Jun 2025 23:21:30,913 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b7d8cc0
+19 Jun 2025 23:21:31,600 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@8fd31d3
+19 Jun 2025 23:21:31,918 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e891ac4
+19 Jun 2025 23:21:32,606 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f8ed8a5
+19 Jun 2025 23:21:32,923 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@422a40a4
+19 Jun 2025 23:21:33,612 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@344e7d98
+19 Jun 2025 23:21:33,929 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@64b23e44
+19 Jun 2025 23:21:34,614 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5ae25f76
+19 Jun 2025 23:21:34,934 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@13deb59e
+19 Jun 2025 23:21:35,619 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3b708e50
+19 Jun 2025 23:21:35,938 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7567c21b
+19 Jun 2025 23:21:36,624 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42c2226b
+19 Jun 2025 23:21:36,944 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@65588373
+19 Jun 2025 23:21:37,628 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5273516
+19 Jun 2025 23:21:37,950 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@106dd182
+19 Jun 2025 23:21:38,632 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d76c32b
+19 Jun 2025 23:21:38,955 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7679e454
+19 Jun 2025 23:21:39,635 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@724bc6db
+19 Jun 2025 23:21:39,958 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3d45879a
+19 Jun 2025 23:21:40,641 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@21c96383
+19 Jun 2025 23:21:40,964 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ca7d85a
+19 Jun 2025 23:21:41,647 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1d7a6d29
+19 Jun 2025 23:21:41,968 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6238eb8d
+19 Jun 2025 23:21:42,648 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@66ee9a36
+19 Jun 2025 23:21:42,974 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5bdae8da
+19 Jun 2025 23:21:43,653 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4abfe52e
+19 Jun 2025 23:21:43,980 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ab2cd6c
+19 Jun 2025 23:21:44,658 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@20005281
+19 Jun 2025 23:21:44,985 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6875a968
+19 Jun 2025 23:21:45,659 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6edd708d
+19 Jun 2025 23:21:45,990 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d345368
+19 Jun 2025 23:21:46,666 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7c70684a
+19 Jun 2025 23:21:46,996 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4124ee2c
+19 Jun 2025 23:21:47,673 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49d3747f
+19 Jun 2025 23:21:48,002 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1d2192c9
+19 Jun 2025 23:21:48,678 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6be5a39e
+19 Jun 2025 23:21:49,005 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@585a56ec
+19 Jun 2025 23:21:49,684 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e39ef77
+19 Jun 2025 23:21:50,007 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@379af19c
+19 Jun 2025 23:21:50,690 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1174f8c2
+19 Jun 2025 23:21:51,012 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@51a93ccd
+19 Jun 2025 23:21:51,694 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4356161f
+19 Jun 2025 23:21:52,017 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@408f4beb
+19 Jun 2025 23:21:52,697 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5e9a4b8
+19 Jun 2025 23:21:53,023 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a689820
+19 Jun 2025 23:21:53,702 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@248aa125
+19 Jun 2025 23:21:54,027 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2a1e96e0
+19 Jun 2025 23:21:54,708 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@120eef9e
+19 Jun 2025 23:21:55,033 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32c9883a
+19 Jun 2025 23:21:55,710 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@619bf52e
+19 Jun 2025 23:21:56,036 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@8235d9b
+19 Jun 2025 23:21:56,716 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@299f41c1
+19 Jun 2025 23:21:57,042 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6847d27
+19 Jun 2025 23:21:57,721 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58ed4e5e
+19 Jun 2025 23:21:58,047 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58f35281
+19 Jun 2025 23:21:58,725 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3d7a38c2
+19 Jun 2025 23:21:59,049 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@268589fd
+19 Jun 2025 23:21:59,728 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37688c6
+19 Jun 2025 23:22:00,052 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@34d8d733
+19 Jun 2025 23:22:00,733 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@50345020
+19 Jun 2025 23:22:01,058 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1110f9ca
+19 Jun 2025 23:22:01,735 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@62196bc6
+19 Jun 2025 23:22:02,063 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@53b5d633
+19 Jun 2025 23:22:02,740 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@e49f36f
+19 Jun 2025 23:22:03,069 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@59f577d9
+19 Jun 2025 23:22:03,744 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@39ce6ad8
+19 Jun 2025 23:22:04,074 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b66429b
+19 Jun 2025 23:22:04,750 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b098891
+19 Jun 2025 23:22:05,080 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3dae3094
+19 Jun 2025 23:22:05,753 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@62e79d6d
+19 Jun 2025 23:22:06,082 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40577d5c
+19 Jun 2025 23:22:06,758 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@23f4d8d5
+19 Jun 2025 23:22:07,088 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@326e9130
+19 Jun 2025 23:22:07,761 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6926eed9
+19 Jun 2025 23:22:08,093 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b056f7c
+19 Jun 2025 23:22:08,765 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e6cae6c
+19 Jun 2025 23:22:09,097 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6763c018
+19 Jun 2025 23:22:09,769 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@30be5a39
+19 Jun 2025 23:22:10,102 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ca5fc35
+19 Jun 2025 23:22:10,775 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35090e8b
+19 Jun 2025 23:22:11,106 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5a841980
+19 Jun 2025 23:22:11,777 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6b077ed5
+19 Jun 2025 23:22:12,112 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5a7ae323
+19 Jun 2025 23:22:12,783 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6013a217
+19 Jun 2025 23:22:13,117 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@23e09b74
+19 Jun 2025 23:22:13,787 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@223e53be
+19 Jun 2025 23:22:14,121 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@10178f69
+19 Jun 2025 23:22:14,791 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5f3e7c24
+19 Jun 2025 23:22:15,125 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6a25ccf2
+19 Jun 2025 23:22:15,793 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f9f50c0
+19 Jun 2025 23:22:16,131 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@674b496e
+19 Jun 2025 23:22:16,799 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7261483e
+19 Jun 2025 23:22:17,137 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@405755c8
+19 Jun 2025 23:22:17,804 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2212566f
+19 Jun 2025 23:22:18,143 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6c17e66c
+19 Jun 2025 23:22:18,808 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@e61d155
+19 Jun 2025 23:22:19,148 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2891e540
+19 Jun 2025 23:22:19,812 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b8d8909
+19 Jun 2025 23:22:20,152 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@152cd905
+19 Jun 2025 23:22:20,817 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3551efe
+19 Jun 2025 23:22:21,159 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6faf277d
+19 Jun 2025 23:22:21,820 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@334481d5
+19 Jun 2025 23:22:22,165 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3cd89862
+19 Jun 2025 23:22:22,826 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@332f1591
+19 Jun 2025 23:22:23,170 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1bc4d15c
+19 Jun 2025 23:22:23,829 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24fd073c
+19 Jun 2025 23:22:24,172 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68d3c7d0
+19 Jun 2025 23:22:24,833 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f745fb3
+19 Jun 2025 23:22:25,176 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ed18178
+19 Jun 2025 23:22:25,835 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18292da1
+19 Jun 2025 23:22:26,181 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6b21d48
+19 Jun 2025 23:22:26,840 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@536120a8
+19 Jun 2025 23:22:27,184 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3bc162f3
+19 Jun 2025 23:22:27,842 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1fe9091f
+19 Jun 2025 23:22:28,189 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d5acf1c
+19 Jun 2025 23:22:28,844 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@324d4496
+19 Jun 2025 23:22:29,194 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f725d8e
+19 Jun 2025 23:22:29,850 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@63d8235b
+19 Jun 2025 23:22:30,197 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@29bc4f75
+19 Jun 2025 23:22:30,853 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@39e63be8
+19 Jun 2025 23:22:31,199 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@195a664b
+19 Jun 2025 23:22:31,858 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e107c3a
+19 Jun 2025 23:22:32,204 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e36853
+19 Jun 2025 23:22:32,864 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3621fc9a
+19 Jun 2025 23:22:33,210 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2f50cbac
+19 Jun 2025 23:22:33,870 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14c1d3fe
+19 Jun 2025 23:22:34,211 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@645cfed4
+19 Jun 2025 23:22:34,875 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1c7083f5
+19 Jun 2025 23:22:35,216 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2efea42a
+19 Jun 2025 23:22:35,878 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@71ecdded
+19 Jun 2025 23:22:36,221 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37c6e056
+19 Jun 2025 23:22:36,883 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48903a66
+19 Jun 2025 23:22:37,227 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ee240a9
+19 Jun 2025 23:22:37,889 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52545ea9
+19 Jun 2025 23:22:38,230 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1dcbb7ff
+19 Jun 2025 23:22:38,894 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4aa3103d
+19 Jun 2025 23:22:39,236 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@464f8f98
+19 Jun 2025 23:22:39,899 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5db7bf31
+19 Jun 2025 23:22:40,240 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@468b0357
+19 Jun 2025 23:22:40,905 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14bdedeb
+19 Jun 2025 23:22:41,241 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a60f427
+19 Jun 2025 23:22:41,911 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@64ec48c3
+19 Jun 2025 23:22:42,244 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@ad4d6db
+19 Jun 2025 23:22:42,916 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@361c9e9b
+19 Jun 2025 23:22:43,245 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@305dab56
+19 Jun 2025 23:22:43,921 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5632f15e
+19 Jun 2025 23:22:44,251 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e5297b1
+19 Jun 2025 23:22:44,926 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2d9b8cc6
+19 Jun 2025 23:22:45,254 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@635e9f90
+19 Jun 2025 23:22:45,931 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b3763e6
+19 Jun 2025 23:22:46,259 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f90ef2e
+19 Jun 2025 23:22:46,934 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@798dd85d
+19 Jun 2025 23:22:47,264 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@12cafa91
+19 Jun 2025 23:22:47,936 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38747e33
+19 Jun 2025 23:22:48,266 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@289f0866
+19 Jun 2025 23:22:48,937 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49f82847
+19 Jun 2025 23:22:49,272 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f2aa0fa
+19 Jun 2025 23:22:49,942 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@59c04acd
+19 Jun 2025 23:22:50,276 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@770bc1ae
+19 Jun 2025 23:22:50,946 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4e182e98
+19 Jun 2025 23:22:51,282 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3250a3ac
+19 Jun 2025 23:22:51,948 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5586448e
+19 Jun 2025 23:22:52,288 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@62dc41b8
+19 Jun 2025 23:22:52,950 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5d34e469
+19 Jun 2025 23:22:53,294 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@81b1069
+19 Jun 2025 23:22:53,956 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6795b20
+19 Jun 2025 23:22:54,295 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2134b675
+19 Jun 2025 23:22:54,961 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@99ac999
+19 Jun 2025 23:22:55,299 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@16ce2c3c
+19 Jun 2025 23:22:55,964 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e5f5e10
+19 Jun 2025 23:22:56,305 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@169f7edc
+19 Jun 2025 23:22:56,971 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14b2e81e
+19 Jun 2025 23:22:57,309 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4657ac3e
+19 Jun 2025 23:22:57,975 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@585e01f3
+19 Jun 2025 23:22:58,313 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42d42d9f
+19 Jun 2025 23:22:58,979 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@757cd60
+19 Jun 2025 23:22:59,316 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@251c5635
+19 Jun 2025 23:22:59,981 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@136cbc44
+19 Jun 2025 23:23:00,317 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4818b5d4
+19 Jun 2025 23:23:00,987 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@109d442f
+19 Jun 2025 23:23:01,323 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3355c6b5
+19 Jun 2025 23:23:01,991 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38e49e56
+19 Jun 2025 23:23:02,328 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@508ebd95
+19 Jun 2025 23:23:02,996 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@16178e7
+19 Jun 2025 23:23:03,334 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1764f44f
+19 Jun 2025 23:23:04,001 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77196a13
+19 Jun 2025 23:23:04,338 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1adf4562
+19 Jun 2025 23:23:05,002 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@ddff4e3
+19 Jun 2025 23:23:05,340 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7a258e2
+19 Jun 2025 23:23:06,006 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1155dd20
+19 Jun 2025 23:23:06,346 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22653f96
+19 Jun 2025 23:23:07,011 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1bf939ad
+19 Jun 2025 23:23:07,351 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@12137119
+19 Jun 2025 23:23:08,016 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@278c8133
+19 Jun 2025 23:23:08,353 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7287c26c
+19 Jun 2025 23:23:09,021 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@558611cd
+19 Jun 2025 23:23:09,359 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6777f196
+19 Jun 2025 23:23:10,024 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6a857a80
+19 Jun 2025 23:23:10,364 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6ce5eb61
+19 Jun 2025 23:23:11,026 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3863022c
+19 Jun 2025 23:23:11,368 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6577c45d
+19 Jun 2025 23:23:12,028 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ba5990a
+19 Jun 2025 23:23:12,374 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@292ffe3d
+19 Jun 2025 23:23:13,030 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ec8e7ca
+19 Jun 2025 23:23:13,380 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@710c51cf
+19 Jun 2025 23:23:14,034 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5f58cfe9
+19 Jun 2025 23:23:14,382 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32f1026c
+19 Jun 2025 23:23:15,040 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f0ac44c
+19 Jun 2025 23:23:15,388 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@697f7d43
+19 Jun 2025 23:23:16,045 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28307f6e
+19 Jun 2025 23:23:16,393 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f77a847
+19 Jun 2025 23:23:17,051 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@719f2b15
+19 Jun 2025 23:23:17,397 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2ce6044f
+19 Jun 2025 23:23:18,055 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68a19548
+19 Jun 2025 23:23:18,402 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@16be81dd
+19 Jun 2025 23:23:19,058 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@412004b4
+19 Jun 2025 23:23:19,408 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@439632c
+19 Jun 2025 23:23:20,063 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6ac0c8f1
+19 Jun 2025 23:23:20,414 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@68ed67c
+19 Jun 2025 23:23:21,069 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@620f813f
+19 Jun 2025 23:23:21,415 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1a566e9e
+19 Jun 2025 23:23:22,075 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e053e3
+19 Jun 2025 23:23:22,421 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7884b460
+19 Jun 2025 23:23:23,078 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47a4e22f
+19 Jun 2025 23:23:23,426 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37eb985f
+19 Jun 2025 23:23:24,083 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b4f3d6a
+19 Jun 2025 23:23:24,432 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47a695e8
+19 Jun 2025 23:23:25,089 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35575745
+19 Jun 2025 23:23:25,437 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e2d211c
+19 Jun 2025 23:23:26,093 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31ac7547
+19 Jun 2025 23:23:26,441 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3357af0d
+19 Jun 2025 23:23:27,096 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@51f95cc7
+19 Jun 2025 23:23:27,446 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5815f058
+19 Jun 2025 23:23:28,100 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38f8fff
+19 Jun 2025 23:23:28,449 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b6f3767
+19 Jun 2025 23:23:29,103 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c6d1db4
+19 Jun 2025 23:23:29,453 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2ccdc6d7
+19 Jun 2025 23:23:30,109 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5e395733
+19 Jun 2025 23:23:30,459 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22ec2b84
+19 Jun 2025 23:23:31,111 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@453d2757
+19 Jun 2025 23:23:31,464 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@550c88b1
+19 Jun 2025 23:23:32,116 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3ab2a878
+19 Jun 2025 23:23:32,470 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@70a5978
+19 Jun 2025 23:23:33,118 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5e569227
+19 Jun 2025 23:23:33,471 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@45b3cc30
+19 Jun 2025 23:23:34,123 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4a42d611
+19 Jun 2025 23:23:34,472 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6406f09
+19 Jun 2025 23:23:35,128 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@66e95791
+19 Jun 2025 23:23:35,478 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37383670
+19 Jun 2025 23:23:36,131 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49b7c25c
+19 Jun 2025 23:23:36,484 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@622c7876
+19 Jun 2025 23:23:37,134 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@239ab6e7
+19 Jun 2025 23:23:37,485 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@39a5ea4f
+19 Jun 2025 23:23:38,137 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7fb41edb
+19 Jun 2025 23:23:38,491 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3c18f255
+19 Jun 2025 23:23:39,142 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@53cd8b63
+19 Jun 2025 23:23:39,495 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ae5d810
+19 Jun 2025 23:23:40,146 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@241f1664
+19 Jun 2025 23:23:40,500 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b0be6f2
+19 Jun 2025 23:23:41,150 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52c4a18e
+19 Jun 2025 23:23:41,503 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5dea9a4e
+19 Jun 2025 23:23:42,156 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@dd92fcb
+19 Jun 2025 23:23:42,509 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@261b51fc
+19 Jun 2025 23:23:43,161 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32f02b80
+19 Jun 2025 23:23:43,510 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42da3877
+19 Jun 2025 23:23:44,162 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e00a78c
+19 Jun 2025 23:23:44,514 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@56727aa8
+19 Jun 2025 23:23:45,164 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@19bfa313
+19 Jun 2025 23:23:45,519 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5fc3b2c2
+19 Jun 2025 23:23:46,166 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5ddc6098
+19 Jun 2025 23:23:46,525 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@232b9c77
+19 Jun 2025 23:23:47,170 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e43ec88
+19 Jun 2025 23:23:47,531 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@30a101e5
+19 Jun 2025 23:23:48,176 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5941a0b
+19 Jun 2025 23:23:48,536 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@75438a63
+19 Jun 2025 23:23:49,178 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@61579691
+19 Jun 2025 23:23:49,542 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@375463ab
+19 Jun 2025 23:23:50,184 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5f31f283
+19 Jun 2025 23:23:50,548 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48e39912
+19 Jun 2025 23:23:51,187 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e677241
+19 Jun 2025 23:23:51,549 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@70f507c2
+19 Jun 2025 23:23:52,193 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b0671c4
+19 Jun 2025 23:23:52,553 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@190c8b2d
+19 Jun 2025 23:23:53,196 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@56b88d2b
+19 Jun 2025 23:23:53,559 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@d51ea9c
+19 Jun 2025 23:23:54,201 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6cdc895
+19 Jun 2025 23:23:54,564 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@59aed92d
+19 Jun 2025 23:23:55,206 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@132d5777
+19 Jun 2025 23:23:55,568 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1bd0ecd
+19 Jun 2025 23:23:56,212 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b9d9c87
+19 Jun 2025 23:23:56,570 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7c15a834
+19 Jun 2025 23:23:57,218 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@39de8d0a
+19 Jun 2025 23:23:57,573 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7e12a820
+19 Jun 2025 23:23:58,219 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@51bf63c4
+19 Jun 2025 23:23:58,577 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@515a717e
+19 Jun 2025 23:23:59,224 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28d0006b
+19 Jun 2025 23:23:59,582 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38f8d6fe
+19 Jun 2025 23:24:00,229 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6feed852
+19 Jun 2025 23:24:00,588 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@697d8ddd
+19 Jun 2025 23:24:01,235 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2295be78
+19 Jun 2025 23:24:01,594 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c56b7a
+19 Jun 2025 23:24:02,241 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@81e48ad
+19 Jun 2025 23:24:02,599 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@963bdd
+19 Jun 2025 23:24:03,244 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2065d29d
+19 Jun 2025 23:24:03,605 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7e274217
+19 Jun 2025 23:24:04,249 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3950b28b
+19 Jun 2025 23:24:04,609 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b313b6b
+19 Jun 2025 23:24:05,254 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3639ada7
+19 Jun 2025 23:24:05,612 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@528611cc
+19 Jun 2025 23:24:06,260 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4c18d0ed
+19 Jun 2025 23:24:06,613 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@63ff8092
+19 Jun 2025 23:24:07,265 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42e712c9
+19 Jun 2025 23:24:07,618 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@278c4100
+19 Jun 2025 23:24:08,271 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7e9f34f4
+19 Jun 2025 23:24:08,624 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5594ccf9
+19 Jun 2025 23:24:09,273 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@530ea15
+19 Jun 2025 23:24:09,627 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37feaff6
+19 Jun 2025 23:24:10,277 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f25cde6
+19 Jun 2025 23:24:10,630 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@289a528b
+19 Jun 2025 23:24:11,280 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@752ef791
+19 Jun 2025 23:24:11,635 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d5b92d9
+19 Jun 2025 23:24:12,286 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@72114554
+19 Jun 2025 23:24:12,638 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1edb688f
+19 Jun 2025 23:24:13,292 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@70f37941
+19 Jun 2025 23:24:13,641 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5c18f5bd
+19 Jun 2025 23:24:14,295 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5118c044
+19 Jun 2025 23:24:14,646 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@26ecfabf
+19 Jun 2025 23:24:15,300 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@53083789
+19 Jun 2025 23:24:15,651 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@179079e1
+19 Jun 2025 23:24:16,306 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b4be359
+19 Jun 2025 23:24:16,657 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52caf48c
+19 Jun 2025 23:24:17,312 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4099ae00
+19 Jun 2025 23:24:17,661 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49e44675
+19 Jun 2025 23:24:18,316 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@57944cb7
+19 Jun 2025 23:24:18,664 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@81c74f4
+19 Jun 2025 23:24:19,319 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@45329db3
+19 Jun 2025 23:24:19,669 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1cd74b67
+19 Jun 2025 23:24:20,321 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3117ff67
+19 Jun 2025 23:24:20,673 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@193cb2e5
+19 Jun 2025 23:24:21,326 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3cf3aeeb
+19 Jun 2025 23:24:21,677 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@72809859
+19 Jun 2025 23:24:22,332 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4977bc36
+19 Jun 2025 23:24:22,682 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1950e929
+19 Jun 2025 23:24:23,336 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18f97fae
+19 Jun 2025 23:24:23,686 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3f7a0517
+19 Jun 2025 23:25:22,749 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:25:22,750 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:25:22,751 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:25:23,090 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:25:23,092 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:25:23,094 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:25:23,094 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:25:23,095 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:25:23,101 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:25:23,101 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:25:28,246 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:25:28,247 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:25:28,252 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:25:28,256 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:25:28,256 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:25:28,257 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:25:28,257 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:25:33,382 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 125 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass', id=null}}
+19 Jun 2025 23:25:33,418 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 134 sendRequestAndWait - Error sending request or flushing output: model.User
+java.io.NotSerializableException: model.User
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1200) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1585) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1542) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1451) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1194) ~[?:?]
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:358) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.sendRequestAndWait(ProjectServicesRpcProxy.java:127) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.login(ProjectServicesRpcProxy.java:153) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.client.gui.Login.handleConfirmLoginClick(Login.java:53) ~[main/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx.base.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx.base.jar:?]
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx.fxml.jar:?]
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1858) ~[javafx.fxml.jar:?]
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1731) ~[javafx.fxml.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx.base.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:199) ~[javafx.base.jar:?]
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8963) ~[javafx.graphics.jar:?]
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203) ~[javafx.controls.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx.controls.jar:?]
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx.controls.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base.jar:?]
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:199) ~[javafx.base.jar:?]
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3987) ~[javafx.graphics.jar:?]
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1893) ~[javafx.graphics.jar:?]
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2711) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:430) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:560) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:946) [javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:128) [javafx.graphics.jar:?]
+19 Jun 2025 23:25:33,423 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 86 closeConnection - Closing connection to localhost:55556
+19 Jun 2025 23:25:33,424 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 100 closeConnection - Socket connection closed.
+19 Jun 2025 23:25:33,432 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28e8e4b2
+19 Jun 2025 23:25:34,433 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4791f199
+19 Jun 2025 23:25:35,439 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@123e78bb
+19 Jun 2025 23:25:36,445 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7d1cd33a
+19 Jun 2025 23:25:37,453 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@475c4ed0
+19 Jun 2025 23:25:38,455 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f89729b
+19 Jun 2025 23:25:39,462 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e132871
+19 Jun 2025 23:25:40,468 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@750da38a
+19 Jun 2025 23:25:41,474 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@50025935
+19 Jun 2025 23:25:42,478 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@145bf404
+19 Jun 2025 23:25:43,482 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@63fc165e
+19 Jun 2025 23:25:44,486 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b75f858
+19 Jun 2025 23:25:45,491 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@397cddf2
+19 Jun 2025 23:25:46,495 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@72ccf50d
+19 Jun 2025 23:25:47,507 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@710153ec
+19 Jun 2025 23:25:48,508 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@25e2c2ac
+19 Jun 2025 23:25:49,515 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7aae08af
+19 Jun 2025 23:25:50,521 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6fdffe6a
+19 Jun 2025 23:25:51,524 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14ba5e4e
+19 Jun 2025 23:25:52,529 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@27fe19d7
+19 Jun 2025 23:25:53,534 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2d1f86f7
+19 Jun 2025 23:25:54,539 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3da30190
+19 Jun 2025 23:25:55,546 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7bad7044
+19 Jun 2025 23:25:56,551 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c4afe47
+19 Jun 2025 23:25:57,556 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7db3ed07
+19 Jun 2025 23:25:58,562 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58b9dca0
+19 Jun 2025 23:25:59,564 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4806a8a3
+19 Jun 2025 23:26:00,570 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@33c5cf22
+19 Jun 2025 23:26:01,577 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@517cd788
+19 Jun 2025 23:26:02,581 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47b64ddb
+19 Jun 2025 23:26:03,587 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3a08b63e
+19 Jun 2025 23:26:04,591 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2729c282
+19 Jun 2025 23:26:05,598 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@10de9178
+19 Jun 2025 23:26:06,604 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@65f3de2d
+19 Jun 2025 23:26:07,606 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ab53deb
+19 Jun 2025 23:26:08,612 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@73e1d1ed
+19 Jun 2025 23:26:09,618 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1750dbb8
+19 Jun 2025 23:26:10,624 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6c297dc9
+19 Jun 2025 23:26:11,629 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5fc05fc2
+19 Jun 2025 23:26:12,631 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22d3836e
+19 Jun 2025 23:26:13,637 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@334f1197
+19 Jun 2025 23:26:14,639 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@142fe502
+19 Jun 2025 23:26:15,646 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@494c860a
+19 Jun 2025 23:26:16,651 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@773aa4be
+19 Jun 2025 23:26:17,657 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3cb2c067
+19 Jun 2025 23:26:18,662 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@575e3506
+19 Jun 2025 23:26:19,665 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7a8f8531
+19 Jun 2025 23:26:20,669 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5832c18a
+19 Jun 2025 23:26:21,674 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@72299313
+19 Jun 2025 23:26:22,677 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@54f96e55
+19 Jun 2025 23:26:23,683 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5259cff6
+19 Jun 2025 23:26:24,689 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1c296aa6
+19 Jun 2025 23:26:25,695 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22a6d33b
+19 Jun 2025 23:26:26,700 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3db29afc
+19 Jun 2025 23:26:27,702 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2108d4c3
+19 Jun 2025 23:26:28,708 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7623f61e
+19 Jun 2025 23:26:29,712 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6208ccea
+19 Jun 2025 23:26:30,716 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b44df2d
+19 Jun 2025 23:26:31,721 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2c8db44a
+19 Jun 2025 23:26:32,727 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@457724c3
+19 Jun 2025 23:26:33,729 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@613cdf1b
+19 Jun 2025 23:26:34,736 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@cecd9a6
+19 Jun 2025 23:26:35,740 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d821395
+19 Jun 2025 23:26:36,745 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@312f77da
+19 Jun 2025 23:26:37,747 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@366ca2e3
+19 Jun 2025 23:26:38,753 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5c276c61
+19 Jun 2025 23:26:39,759 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@164c2cb
+19 Jun 2025 23:26:40,765 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b3ff49a
+19 Jun 2025 23:26:41,767 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18172ca4
+19 Jun 2025 23:26:42,774 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f341fa3
+19 Jun 2025 23:26:43,775 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5861e814
+19 Jun 2025 23:26:44,782 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6cce4ca6
+19 Jun 2025 23:26:45,788 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d9d2f97
+19 Jun 2025 23:26:46,794 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@120bf880
+19 Jun 2025 23:26:47,800 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@45fd839d
+19 Jun 2025 23:26:48,806 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5bc85cf8
+19 Jun 2025 23:26:49,812 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7f0d3181
+19 Jun 2025 23:26:50,817 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@320f1918
+19 Jun 2025 23:26:51,823 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1b4795af
+19 Jun 2025 23:28:43,187 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:28:43,188 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:28:43,196 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 52 initializeConnection - Error initializing connection to localhost:55556: Connection refused
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.initializeConnection(ProjectServicesRpcProxy.java:44) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.<init>(ProjectServicesRpcProxy.java:38) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.client.StartRpcClient.start(StartRpcClient.java:45) ~[main/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx.graphics.jar:?]
+19 Jun 2025 23:28:45,441 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:28:45,442 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:28:45,442 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:28:45,835 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:28:45,836 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:28:45,837 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:28:45,837 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:28:45,837 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:28:45,842 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:28:45,842 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:28:50,974 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:28:50,975 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:28:50,980 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:28:50,983 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:28:50,984 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:28:50,984 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:28:50,984 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:28:56,546 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 125 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:28:56,579 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 45 run - Received request from client: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:28:56,579 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 75 handleRequest - Processing LOGIN request
+19 Jun 2025 23:28:56,580 INFO  org.server.service.MainService 32 login - Attempting login for user: andreea
+19 Jun 2025 23:28:56,580 DEBUG org.server.service.MainService 71 getAllOrganizatori - Getting all users...
+19 Jun 2025 23:28:56,580 TRACE persistence.AbstractRepository 57 findAll - Loading entities...
+19 Jun 2025 23:28:56,584 DEBUG org.server.service.MainService 73 getAllOrganizatori - Users found: [User{username='andreea', password='pass'}]
+19 Jun 2025 23:28:56,585 INFO  org.server.service.MainService 44 login - User andreea logged in successfully. Observer added.
+19 Jun 2025 23:28:56,585 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 80 handleRequest - Login successful for user: andreea
+19 Jun 2025 23:28:56,585 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 121 sendResponse - sending response Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:28:56,588 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 131 sendRequestAndWait - Received response from queue: Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:28:56,588 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 156 login - Login successful via proxy for user: andreea
+19 Jun 2025 23:29:22,652 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3ffe2cdf
+19 Jun 2025 23:29:23,658 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@62b43118
+19 Jun 2025 23:29:24,030 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:29:24,031 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:29:24,038 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:29:24,039 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:29:24,039 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:29:24,042 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:29:24,042 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:29:24,662 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1cc4b5cf
+19 Jun 2025 23:29:25,669 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@63e183ea
+19 Jun 2025 23:29:26,676 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2db7c39d
+19 Jun 2025 23:29:27,680 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e481bc2
+19 Jun 2025 23:29:28,685 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@579bb109
+19 Jun 2025 23:29:29,688 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@380a86c3
+19 Jun 2025 23:29:30,167 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 125 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:29:30,201 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 45 run - Received request from client: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:29:30,201 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 75 handleRequest - Processing LOGIN request
+19 Jun 2025 23:29:30,202 INFO  org.server.service.MainService 32 login - Attempting login for user: andreea
+19 Jun 2025 23:29:30,202 DEBUG org.server.service.MainService 71 getAllOrganizatori - Getting all users...
+19 Jun 2025 23:29:30,202 TRACE persistence.AbstractRepository 57 findAll - Loading entities...
+19 Jun 2025 23:29:30,203 DEBUG org.server.service.MainService 73 getAllOrganizatori - Users found: [User{username='andreea', password='pass'}]
+19 Jun 2025 23:29:30,203 WARN  org.server.service.MainService 39 login - User andreea is already logged in.
+19 Jun 2025 23:29:30,203 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 121 sendResponse - sending response Response{type='ERROR', data='org.services.ProjectException: User already logged in.'}
+19 Jun 2025 23:29:30,209 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 131 sendRequestAndWait - Received response from queue: Response{type='ERROR', data='org.services.ProjectException: User already logged in.'}
+19 Jun 2025 23:29:30,209 WARN  org.networking.rpcprotocol.ProjectServicesRpcProxy 160 login - Login failed via proxy for user andreea: org.services.ProjectException: User already logged in.
+19 Jun 2025 23:29:30,694 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2bb21174
+19 Jun 2025 23:29:31,215 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 70 lambda$startReader$0 - Error reading response: null
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3232) ~[?:?]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1713) ~[?:?]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:540) ~[?:?]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:498) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.lambda$startReader$0(ProjectServicesRpcProxy.java:62) ~[networking-1.0-SNAPSHOT.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+19 Jun 2025 23:29:31,226 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 86 closeConnection - Closing connection to localhost:55556
+19 Jun 2025 23:29:31,227 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 100 closeConnection - Socket connection closed.
+19 Jun 2025 23:29:31,700 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@50a99cb
+19 Jun 2025 23:29:32,706 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@f13639a
+19 Jun 2025 23:29:33,711 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@63c3d025
+19 Jun 2025 23:29:34,715 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58c15498
+19 Jun 2025 23:29:35,720 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@9d45a8a
+19 Jun 2025 23:29:36,726 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1dcff799
+19 Jun 2025 23:29:37,732 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@60f05efd
+19 Jun 2025 23:29:38,737 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32c7b3ef
+19 Jun 2025 23:29:40,353 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:29:40,354 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:29:40,355 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:29:40,753 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:29:40,754 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:29:40,756 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:29:40,756 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:29:40,756 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:29:40,759 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:29:40,759 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:29:42,737 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:29:42,738 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:29:42,744 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:29:42,748 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:29:42,751 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:29:42,756 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:29:42,756 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:29:47,468 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 125 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:29:47,508 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 45 run - Received request from client: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:29:47,508 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 75 handleRequest - Processing LOGIN request
+19 Jun 2025 23:29:47,508 INFO  org.server.service.MainService 32 login - Attempting login for user: andreea
+19 Jun 2025 23:29:47,509 DEBUG org.server.service.MainService 71 getAllOrganizatori - Getting all users...
+19 Jun 2025 23:29:47,509 TRACE persistence.AbstractRepository 57 findAll - Loading entities...
+19 Jun 2025 23:29:47,513 DEBUG org.server.service.MainService 73 getAllOrganizatori - Users found: [User{username='andreea', password='pass'}]
+19 Jun 2025 23:29:47,514 INFO  org.server.service.MainService 44 login - User andreea logged in successfully. Observer added.
+19 Jun 2025 23:29:47,514 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 80 handleRequest - Login successful for user: andreea
+19 Jun 2025 23:29:47,514 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 121 sendResponse - sending response Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:29:47,518 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 131 sendRequestAndWait - Received response from queue: Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:29:47,518 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 156 login - Login successful via proxy for user: andreea
+19 Jun 2025 23:29:52,021 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37ba5b7a
+19 Jun 2025 23:29:53,026 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7987f1f8
+19 Jun 2025 23:29:54,035 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@42887e7b
+19 Jun 2025 23:29:55,041 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@15d14054
+19 Jun 2025 23:29:56,046 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7055a81f
+19 Jun 2025 23:29:57,053 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@369b8fdc
+19 Jun 2025 23:29:58,054 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@37e154d2
+19 Jun 2025 23:29:59,058 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28ad619a
+19 Jun 2025 23:30:00,062 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@75e531c0
+19 Jun 2025 23:30:01,068 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1feaa5cf
+19 Jun 2025 23:30:02,071 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@22902524
+19 Jun 2025 23:30:03,076 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@61f2315d
+19 Jun 2025 23:30:04,079 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3d457792
+19 Jun 2025 23:30:05,085 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77cb6928
+19 Jun 2025 23:30:06,087 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@54d1dbf0
+19 Jun 2025 23:30:07,093 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24d960ee
+19 Jun 2025 23:30:08,098 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32366a00
+19 Jun 2025 23:30:09,106 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1e98d747
+19 Jun 2025 23:30:10,111 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@44cc913f
+19 Jun 2025 23:30:11,117 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2b7d4758
+19 Jun 2025 23:30:12,122 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2a1a5e5d
+19 Jun 2025 23:30:13,126 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@726086b6
+19 Jun 2025 23:31:40,160 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+19 Jun 2025 23:31:40,161 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+19 Jun 2025 23:31:40,162 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+19 Jun 2025 23:31:40,557 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+19 Jun 2025 23:31:40,559 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+19 Jun 2025 23:31:40,561 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+19 Jun 2025 23:31:40,561 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+19 Jun 2025 23:31:40,562 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+19 Jun 2025 23:31:40,567 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+19 Jun 2025 23:31:40,568 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:31:45,143 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+19 Jun 2025 23:31:45,144 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+19 Jun 2025 23:31:45,151 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+19 Jun 2025 23:31:45,154 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+19 Jun 2025 23:31:45,154 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+19 Jun 2025 23:31:45,155 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+19 Jun 2025 23:31:45,155 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+19 Jun 2025 23:31:50,065 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 125 sendRequestAndWait - Sending request: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:31:50,101 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 45 run - Received request from client: Request{type=LOGIN, data=User{username='andreea', password='pass'}}
+19 Jun 2025 23:31:50,102 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 75 handleRequest - Processing LOGIN request
+19 Jun 2025 23:31:50,102 INFO  org.server.service.MainService 32 login - Attempting login for user: andreea
+19 Jun 2025 23:31:50,102 DEBUG org.server.service.MainService 71 getAllOrganizatori - Getting all users...
+19 Jun 2025 23:31:50,102 TRACE persistence.AbstractRepository 57 findAll - Loading entities...
+19 Jun 2025 23:31:50,109 DEBUG org.server.service.MainService 73 getAllOrganizatori - Users found: [User{username='andreea', password='pass'}]
+19 Jun 2025 23:31:50,109 INFO  org.server.service.MainService 44 login - User andreea logged in successfully. Observer added.
+19 Jun 2025 23:31:50,110 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 80 handleRequest - Login successful for user: andreea
+19 Jun 2025 23:31:50,110 DEBUG org.networking.rpcprotocol.ProjectClientRpcWorker 121 sendResponse - sending response Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:31:50,113 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 131 sendRequestAndWait - Received response from queue: Response{type='OK', data='User{username='andreea', password='pass'}'}
+19 Jun 2025 23:31:50,113 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 156 login - Login successful via proxy for user: andreea
+19 Jun 2025 23:31:53,082 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@655719a4
+19 Jun 2025 23:31:54,085 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77e6fd79
+19 Jun 2025 23:31:55,087 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@52553529
+19 Jun 2025 23:31:56,093 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77aae25d
+19 Jun 2025 23:31:57,099 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2a6d5f35
+19 Jun 2025 23:31:58,102 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6a207234
+19 Jun 2025 23:31:59,107 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@11a7ee24
+19 Jun 2025 23:32:00,112 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31bf4e47
+19 Jun 2025 23:32:01,118 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@71eb2bb2
+19 Jun 2025 23:32:02,125 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@18b35669
+19 Jun 2025 23:32:03,130 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@36cb4d95
+19 Jun 2025 23:32:04,136 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7dcde07d
+19 Jun 2025 23:32:05,140 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@55d3e2cd
+19 Jun 2025 23:32:06,147 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5751e600
+19 Jun 2025 23:32:07,153 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3b1aae9a
+19 Jun 2025 23:32:08,158 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@29c67f8c
+19 Jun 2025 23:32:09,162 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@634925f3
+19 Jun 2025 23:32:10,168 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3bf0be7c
+19 Jun 2025 23:32:11,173 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@55f0a9e6
+19 Jun 2025 23:32:12,178 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f5086cb
+19 Jun 2025 23:32:13,183 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@659c446f
+19 Jun 2025 23:32:14,186 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5b2115fe
+19 Jun 2025 23:32:15,189 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@b4e28e5
+19 Jun 2025 23:32:16,191 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40639199
+19 Jun 2025 23:32:17,197 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@475b1ac6
+19 Jun 2025 23:32:18,203 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14066936
+19 Jun 2025 23:32:19,207 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6e756253
+19 Jun 2025 23:32:20,208 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32c6d95d
+19 Jun 2025 23:32:21,213 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2d5478e9
+19 Jun 2025 23:32:22,217 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@a3cebac
+19 Jun 2025 23:32:23,223 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f9e7742
+19 Jun 2025 23:32:24,229 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4b9653dd
+19 Jun 2025 23:32:25,234 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@458be976
+19 Jun 2025 23:32:26,240 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@28070be0
+19 Jun 2025 23:32:27,247 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@141f5dc5
+19 Jun 2025 23:32:28,249 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6d6efc20
+19 Jun 2025 23:32:29,255 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@77b478a2
+19 Jun 2025 23:32:30,260 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@677c35bf
+19 Jun 2025 23:32:31,266 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@9e3bde0
+19 Jun 2025 23:32:32,273 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@13f6cf00
+19 Jun 2025 23:32:33,278 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@47d3c4b4
+19 Jun 2025 23:32:34,284 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4184c03c
+19 Jun 2025 23:32:35,289 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@559c7951
+19 Jun 2025 23:32:36,292 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7037322d
+19 Jun 2025 23:32:37,298 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2998aefb
+19 Jun 2025 23:32:38,303 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4e7a0ed4
+19 Jun 2025 23:32:39,307 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@789aa0bb
+19 Jun 2025 23:32:40,311 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31f543df
+19 Jun 2025 23:32:41,313 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5df6dc6c
+19 Jun 2025 23:32:42,320 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@436465a8
+19 Jun 2025 23:32:43,325 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6ed68a07
+19 Jun 2025 23:32:44,332 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@75a6d7b9
+19 Jun 2025 23:32:45,338 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ed860dd
+19 Jun 2025 23:32:46,344 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7ef11f8b
+19 Jun 2025 23:32:47,349 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@24ad34e0
+19 Jun 2025 23:32:48,353 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@677534d3
+19 Jun 2025 23:32:49,358 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3af67e68
+19 Jun 2025 23:32:50,361 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4c8d23fa
+19 Jun 2025 23:32:51,367 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1ca04bf
+19 Jun 2025 23:32:52,371 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4f576bf9
+19 Jun 2025 23:32:53,377 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@465b4945
+19 Jun 2025 23:32:54,380 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@636c3087
+19 Jun 2025 23:32:55,384 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@32522fa9
+19 Jun 2025 23:32:56,390 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@462e92b9
+19 Jun 2025 23:32:57,395 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5a23fa58
+19 Jun 2025 23:32:58,398 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@58c90193
+19 Jun 2025 23:32:59,405 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7bc55244
+19 Jun 2025 23:33:00,411 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@49ccacdf
+19 Jun 2025 23:33:01,412 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@cf86e84
+19 Jun 2025 23:33:02,415 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1cad2311
+19 Jun 2025 23:33:03,422 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4d2b05b2
+19 Jun 2025 23:33:04,424 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@61ade29c
+19 Jun 2025 23:33:05,429 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2e6e3c63
+19 Jun 2025 23:33:06,436 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5bae3714
+19 Jun 2025 23:33:07,438 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4e3dbf46
+19 Jun 2025 23:33:08,443 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@400a0d1f
+19 Jun 2025 23:33:09,446 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@1f58bc59
+19 Jun 2025 23:33:10,452 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@35e43e31
+19 Jun 2025 23:33:11,457 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@16806044
+19 Jun 2025 23:33:12,463 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@672f57e
+19 Jun 2025 23:33:13,467 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5c122b9d
+19 Jun 2025 23:33:14,471 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@48938398
+19 Jun 2025 23:33:15,477 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5d04588e
+19 Jun 2025 23:33:16,482 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4ccc9f55
+19 Jun 2025 23:33:17,487 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@14f0b92
+19 Jun 2025 23:33:18,494 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5594c760
+19 Jun 2025 23:33:19,500 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2aab2574
+19 Jun 2025 23:33:20,504 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2353143
+19 Jun 2025 23:33:21,509 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b5fb90c
+19 Jun 2025 23:33:22,512 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@803dec0
+19 Jun 2025 23:33:23,517 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@7b70ca31
+19 Jun 2025 23:33:24,522 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@50645335
+19 Jun 2025 23:33:25,528 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@567507ec
+19 Jun 2025 23:33:26,531 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4016263c
+19 Jun 2025 23:33:27,537 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3dca5d4d
+19 Jun 2025 23:33:28,540 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4fc55c3a
+19 Jun 2025 23:33:29,546 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@31716849
+19 Jun 2025 23:33:30,552 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@40278f9d
+19 Jun 2025 23:33:31,557 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@2f6892e1
+19 Jun 2025 23:33:32,562 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@4aa93fba
+19 Jun 2025 23:33:33,567 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@70203586
+19 Jun 2025 23:33:34,567 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@c070778
+21 Jun 2025 17:18:23,928 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+21 Jun 2025 17:18:23,931 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+21 Jun 2025 17:18:23,932 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+21 Jun 2025 17:18:24,470 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+21 Jun 2025 17:18:24,471 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+21 Jun 2025 17:18:24,472 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+21 Jun 2025 17:18:24,472 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+21 Jun 2025 17:18:24,472 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+21 Jun 2025 17:18:24,473 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+21 Jun 2025 17:18:24,473 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+21 Jun 2025 17:18:45,477 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+21 Jun 2025 17:18:45,478 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+21 Jun 2025 17:18:45,484 ERROR org.networking.rpcprotocol.ProjectServicesRpcProxy 52 initializeConnection - Error initializing connection to localhost:55556: Connection refused
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.initializeConnection(ProjectServicesRpcProxy.java:44) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.networking.rpcprotocol.ProjectServicesRpcProxy.<init>(ProjectServicesRpcProxy.java:38) ~[networking-1.0-SNAPSHOT.jar:?]
+	at org.client.StartRpcClient.start(StartRpcClient.java:45) ~[main/:?]
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx.graphics.jar:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx.graphics.jar:?]
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) [javafx.graphics.jar:?]
+21 Jun 2025 17:18:54,370 INFO  persistence.database.UserRepo 22 <init> - Initializing OrganizatorRepository
+21 Jun 2025 17:18:54,371 INFO  persistence.utils.JdbcUtils 20 <init> - Loading database configuration...
+21 Jun 2025 17:18:54,372 INFO  persistence.utils.JdbcUtils 26 <init> - Attempting to connect to database...
+21 Jun 2025 17:18:54,618 INFO  persistence.utils.JdbcUtils 29 <init> - Database connection established successfully.
+21 Jun 2025 17:18:54,619 TRACE persistence.utils.JdbcUtils 44 getConnection - Enter
+21 Jun 2025 17:18:54,621 INFO  org.server.StartRpcServer 40 main - Starting Project RPC server on port 55556 ...
+21 Jun 2025 17:18:54,621 DEBUG org.networking.utils.AbsConcurrentServer 12 <init> - Concurrent AbstractServer
+21 Jun 2025 17:18:54,621 INFO  org.networking.utils.RpcConcurrentServer 18 <init> - RpcConcurrentServer created on port 55556
+21 Jun 2025 17:18:54,627 INFO  org.networking.utils.AbstractServer 24 start - Server started on port 55556
+21 Jun 2025 17:18:54,627 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+21 Jun 2025 17:19:01,081 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 37 <init> - RPC Proxy created for server localhost:55556
+21 Jun 2025 17:19:01,082 DEBUG org.networking.rpcprotocol.ProjectServicesRpcProxy 43 initializeConnection - Initializing connection to localhost:55556
+21 Jun 2025 17:19:01,089 INFO  org.networking.utils.AbstractServer 28 start - Client connected: /127.0.0.1
+21 Jun 2025 17:19:01,093 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 50 initializeConnection - Connection established successfully to localhost:55556
+21 Jun 2025 17:19:01,094 INFO  org.networking.rpcprotocol.ProjectServicesRpcProxy 59 lambda$startReader$0 - Starting response reader thread
+21 Jun 2025 17:19:01,100 INFO  org.networking.rpcprotocol.ProjectClientRpcWorker 34 <init> - Worker created for client: /127.0.0.1
+21 Jun 2025 17:19:01,101 INFO  org.networking.utils.AbstractServer 26 start - Waiting for clients ...
+21 Jun 2025 17:19:04,765 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@5afb05c7
+21 Jun 2025 17:19:05,768 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@6bebdb2b
+21 Jun 2025 17:19:06,774 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@38831562
+21 Jun 2025 17:19:07,779 ERROR org.networking.rpcprotocol.ProjectClientRpcWorker 51 run - [Ljava.lang.StackTraceElement;@3ad4fa88

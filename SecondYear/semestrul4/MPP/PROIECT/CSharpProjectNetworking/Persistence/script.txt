@@ -1,0 +1,64 @@
+CREATE TABLE IF NOT EXISTS participanti (
+                    part_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+                    cnp text NOT NULL
+                );
+                
+create table if not exists organizatori
+(
+    org_id   integer not null
+        primary key,
+    username varchar(100),
+    password varchar(100)
+);
+
+create table if not exists categorievarsta
+(
+    cv_id     integer not null
+        primary key,
+    varstamin integer,
+    varstamax integer
+);
+
+create table if not exists probe
+(
+    proba_id integer not null
+        primary key,
+    tip      varchar(100),
+    varsta   integer
+        references categorievarsta(cv_id)
+);
+
+create table if not exists inscrieri
+(
+    participant integer
+        references participanti(part_id),
+    proba       integer
+        references probe(proba_id)
+);
+
+insert into categorievarsta(varstamin, varstamax) values (6, 8), 
+                                                         (9, 11), 
+                                                         (12, 15);
+insert into probe(tip, varsta) VALUES ('Desen', 1),
+                                      ('Desen', 2),
+                                      ('Desen', 3),
+                                      ('Cautare de comori', 1),
+                                      ('Cautare de comori', 2),
+                                      ('Cautare de comori', 3),
+                                      ('Poezie', 1),
+                                      ('Poezie', 2),
+                                      ('Poezie', 3);
+
+insert into participanti(name, cnp) VALUES ('Eric', '5150315000000'),
+                                           ('Marc', '5150315000010'),
+                                           ('Zara', '6100315001000'),
+                                           ('Andreea', '6190315000000');
+
+insert into inscrieri(participant, proba) VALUES (1, 5),
+                                                 (1, 2),
+                                                 (2, 5),
+                                                 (3, 9),
+                                                 (4, 1);
+
+                                      

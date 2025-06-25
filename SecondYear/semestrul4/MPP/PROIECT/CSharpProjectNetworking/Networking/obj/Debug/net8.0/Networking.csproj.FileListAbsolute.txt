@@ -1,0 +1,35 @@
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Networking.deps.json
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Networking.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Networking.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Services.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Services.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/bin/Debug/net8.0/Model.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.csproj.AssemblyReference.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.AssemblyInfoInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.AssemblyInfo.cs
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.csproj.CoreCompileInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.csproj.Up2Date
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/refint/Networking.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/Networking.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Networking/obj/Debug/net8.0/ref/Networking.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Networking.deps.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Networking.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Networking.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Services.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Services.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/bin/Debug/net8.0/Model.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.csproj.AssemblyReference.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.GeneratedMSBuildEditorConfig.editorconfig
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.AssemblyInfoInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.AssemblyInfo.cs
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.csproj.CoreCompileInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.sourcelink.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.csproj.Up2Date
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/refint/Networking.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/Networking.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Networking/obj/Debug/net8.0/ref/Networking.dll

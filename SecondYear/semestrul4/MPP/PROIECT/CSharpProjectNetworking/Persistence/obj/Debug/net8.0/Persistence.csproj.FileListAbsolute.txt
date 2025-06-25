@@ -1,0 +1,33 @@
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Persistence.deps.json
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Persistence.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Persistence.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Model.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.csproj.AssemblyReference.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.csproj.CoreCompileInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persiste.61C28332.Up2Date
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/refint/Persistence.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/Persistence.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/obj/Debug/net8.0/ref/Persistence.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Persistence/bin/Debug/net8.0/Persistence.dll.config
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Persistence.dll.config
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Persistence.deps.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Persistence.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Persistence.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/bin/Debug/net8.0/Model.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.csproj.AssemblyReference.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persiste.61C28332.Up2Date
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/refint/Persistence.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/Persistence.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/obj/Debug/net8.0/ref/Persistence.dll

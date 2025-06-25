@@ -1,0 +1,23 @@
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/bin/Debug/net8.0/Model.deps.json
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/bin/Debug/net8.0/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/bin/Debug/net8.0/Model.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.AssemblyInfoInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.AssemblyInfo.cs
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.csproj.CoreCompileInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/refint/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/Model.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Model/obj/Debug/net8.0/ref/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/bin/Debug/net8.0/Model.deps.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/bin/Debug/net8.0/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/bin/Debug/net8.0/Model.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.AssemblyInfoInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.AssemblyInfo.cs
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.csproj.CoreCompileInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.sourcelink.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/refint/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/Model.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/obj/Debug/net8.0/ref/Model.dll

@@ -1,0 +1,17 @@
+Problema 5.
+Organizatorii unui concurs pentru copii folosesc un sistem soft pentru înscrierea participanților. La diferite oficii
+din oraș se folosește sistemul. Persoana de la fiecare oficiu folosește o aplicație desktop cu următoarele
+funcționalități:
+1. Login. După autentificarea cu succes, o nouă fereastră se deschide în care sunt afișate probele la care se pot
+înscrie copiii (desen, căutarea unei comori, poezie) și categoria de vârsta corespunzătoare: 6-8 ani, 9-11 ani,
+12-15 ani la care se poate înscrie un participant și numărul de copii deja înscrisi la fiecare probă și categorie
+de vârstă.
+2. Căutare. După autentificarea cu succes, persoana de la oficiu poate căuta participanții înscriși la o anumită
+probă și categorie de vârstă. Aplicatia va afișa în altă listă/alt tabel numele participanților la aceea probă și
+vârsta acestora.
+3. Înscriere. Un participant se poate înscrie la cel mult 2 probe. La înscriere, persoana de la oficiu introduce
+numele copilului, CNP, și probele la care vrea să participe. Aplicatia verifica in functie de CNP daca copilul
+se poate inscrie la probele respectiva (daca nu se poate inscrie, afiseaza mesaj de eroare)..După înscrierea
+unui copil, toate persoanele de la celelalte oficii văd lista actualizată a probelor și a numărului de copii
+înscriși la fiecare probă.
+4. Logout.

@@ -1,0 +1,143 @@
+plugins {
+  id 'java'
+}
+
+subprojects {
+  apply plugin: 'java'
+
+  group = 'ro.mpp2025.javaprojectui'
+  version ='1.0-SNAPSHOT'
+
+
+  repositories {
+    mavenCentral()
+  }
+
+  ext {
+    junitVersion = '5.10.2'
+  }
+
+  sourceCompatibility = '21'
+  targetCompatibility = '21'
+
+  tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+  }
+
+  dependencies {
+//    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+//    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core
+    implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+
+    // Hibernate Validator
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'org.glassfish:jakarta.el:4.0.2'
+
+    // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-community-dialects
+    implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
+
+    implementation 'org.xerial:sqlite-jdbc:3.45.0.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.24.3'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.24.3'
+
+//    implementation 'org.slf4j:slf4j-simple:2.0.12'
+
+  }
+
+  test {
+    useJUnitPlatform()}
+
+
+  java {
+    toolchain {
+      languageVersion.set(JavaLanguageVersion.of(21))
+    }
+  }
+
+}
+//
+//
+//jlink {
+//  imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+//  options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+//  launcher {
+//    name = 'app'
+//  }
+//}
+//
+//jlinkZip {
+//  group = 'distribution'
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//plugins {
+//  id 'java'
+//  id 'application'
+//  id 'org.javamodularity.moduleplugin' version '1.8.12'
+//  id 'org.openjfx.javafxplugin' version '0.0.13'
+//  id 'org.beryx.jlink' version '2.25.0'
+//
+//}
+//
+//
+//
+//
+//javafx {
+//  version = '21'
+//  modules = ['javafx.controls', 'javafx.fxml']
+//}
+//
+//dependencies {
+//  implementation('org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0')
+//
+//  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+//  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+//
+//  implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.24.3'
+//  implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.24.3'
+//
+//  implementation 'org.openjfx:javafx-controls:23'
+//  implementation 'org.openjfx:javafx-fxml:23'
+//  implementation("org.openjfx:javafx-base:21.0.6")
+//  implementation("org.openjfx:javafx-graphics:21.0.6")
+//
+//  runtimeOnly group: 'org.xerial', name: 'sqlite-jdbc', version: '3.41.2.2'
+//}
+

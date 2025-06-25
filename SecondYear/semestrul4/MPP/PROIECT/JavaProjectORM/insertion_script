@@ -1,0 +1,31 @@
+insert into categorievarsta(varstamin, varstamax) VALUES
+                                                      (6, 8),
+                                                      (9, 11),
+                                                      (12, 15);
+
+insert into participanti(nume, cnp) VALUES
+                                        ('Maria', '6180315120023'), --7 ani
+                                        ('Andrei', '5150312120123'), --10 ani
+                                        ('Alex', '5150315120122'), --10 ani
+                                        ('Daniela', '6110312100020'); --14 ani
+
+
+
+insert into probe(tip, varsta) values ('Desen', 1),
+                                      ('Desen', 2),
+                                      ('Desen', 3),
+                                      ('Cautare de comori', 1),
+                                      ('Cautare de comori', 2),
+                                      ('Cautare de comori', 3),
+                                      ('Poezie', 1),
+                                      ('Poezie', 2),
+                                      ('Poezie', 3);
+
+alter table probe
+add ck_constraint check ( tip == 'Desen' or tip == 'Cautare de comori' or tip == 'Poezie' );
+
+insert into inscrieri(participant, proba) VALUES
+                                              (1, 1),
+                                              (2, 8),
+                                              (3, 8),
+                                              (4, 6);

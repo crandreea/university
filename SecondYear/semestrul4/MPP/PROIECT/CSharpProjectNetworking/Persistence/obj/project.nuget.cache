@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "SolusOLXTr0=",
+  "success": true,
+  "projectFilePath": "/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Persistence/Persistence.csproj",
+  "expectedPackageFiles": [
+    "/Users/croitoruandreea/.nuget/packages/log4net/3.0.4/log4net.3.0.4.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/microsoft.data.sqlite/10.0.0-preview.3.25171.6/microsoft.data.sqlite.10.0.0-preview.3.25171.6.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/microsoft.data.sqlite.core/10.0.0-preview.3.25171.6/microsoft.data.sqlite.core.10.0.0-preview.3.25171.6.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/system.configuration.configurationmanager/9.0.0/system.configuration.configurationmanager.9.0.0.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/system.diagnostics.eventlog/9.0.0/system.diagnostics.eventlog.9.0.0.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/system.security.cryptography.protecteddata/9.0.0/system.security.cryptography.protecteddata.9.0.0.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

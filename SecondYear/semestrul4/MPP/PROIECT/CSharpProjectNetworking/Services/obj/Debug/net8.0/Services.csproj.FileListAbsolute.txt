@@ -1,0 +1,31 @@
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/bin/Debug/net8.0/Services.deps.json
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/bin/Debug/net8.0/Services.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/bin/Debug/net8.0/Services.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/bin/Debug/net8.0/Model.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/bin/Debug/net8.0/Model.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/refint/Services.dll
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/Services.pdb
+C:/Users/Florin_C/Desktop/MPP/CSharpProjectNetworking/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/bin/Debug/net8.0/Services.deps.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/bin/Debug/net8.0/Services.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/bin/Debug/net8.0/Services.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/bin/Debug/net8.0/Model.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/bin/Debug/net8.0/Model.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.sourcelink.json
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/Services.pdb
+/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Services/obj/Debug/net8.0/ref/Services.dll

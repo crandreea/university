@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+subprojects {
+    apply plugin: 'java'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+
+    ext {
+        junitVersion = '5.10.2'
+    }
+
+    sourceCompatibility = '21'
+    targetCompatibility = '21'
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    dependencies {
+//jurnalizare
+        implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.24.3'
+        implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.24.3'
+
+//hibernate
+        implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+        implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+        implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
+
+//db
+        implementation 'org.xerial:sqlite-jdbc:3.45.0.0'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
+
+

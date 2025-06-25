@@ -1,0 +1,41 @@
+.grid-cell {
+    -fx-background-color: lightgray;
+    -fx-border-color: darkgray;
+    -fx-border-width: 1px;
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+}
+
+.grid-cell:disabled {
+    -fx-opacity: 0.8; /* Make disabled cells slightly faded */
+}
+
+.grid-start-cell {
+    -fx-background-color: lightgreen;
+}
+
+.grid-end-cell {
+    -fx-background-color: lightcoral;
+}
+
+.pit-cell {
+    -fx-background-color: #880000; /* Dark red for the pit */
+    -fx-text-fill: white;
+}
+
+.grid-cell-trap{
+    -fx-background-color: #25444e;
+}
+
+.final-path {
+    -fx-background-color: #FFD700; /* Gold for the path revealed at the end */
+}
+
+.final-pit {
+    -fx-background-color: #FF4500; /* OrangeRed for the final pit location */
+    -fx-text-fill: white;
+}
+
+.revealed-cell {
+    -fx-background-color: #ADD8E6; /* Light blue for revealed cells */
+}

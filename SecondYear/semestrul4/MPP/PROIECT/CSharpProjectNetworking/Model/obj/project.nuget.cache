@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tJSBIv7QnlE=",
+  "success": true,
+  "projectFilePath": "/Users/croitoruandreea/Desktop/ANUL2/semestrul4/MPP/PROIECT/mpp-proiect-csharp-crandreea/CSharpProjectNetworking 2/Model/Model.csproj",
+  "expectedPackageFiles": [
+    "/Users/croitoruandreea/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/croitoruandreea/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

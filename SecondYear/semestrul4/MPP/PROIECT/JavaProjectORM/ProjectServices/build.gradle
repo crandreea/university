@@ -1,0 +1,18 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation project(':ProjectModel')
+
+    implementation 'org.openjfx:javafx-controls:23'
+    implementation 'org.openjfx:javafx-fxml:23'
+    implementation("org.openjfx:javafx-base:21.0.6")
+    implementation("org.openjfx:javafx-graphics:21.0.6")
+}
+

@@ -1,0 +1,19 @@
+-- auto-generated definition
+create table categorievarsta
+(
+    id        INTEGER not null
+        primary key autoincrement,
+    varstamin int,
+    varstamax int
+);
+
+-- auto-generated definition
+create table participanti
+(
+    id   INTEGER not null
+        primary key autoincrement,
+    nume varchar(100),
+    cnp  varchar(100),
+    check (length(cnp) = 13)
+);
+

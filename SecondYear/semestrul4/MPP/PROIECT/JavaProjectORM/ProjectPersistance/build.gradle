@@ -1,0 +1,6 @@
+dependencies {
+    runtimeOnly group: 'org.xerial', name: 'sqlite-jdbc', version: '3.41.2.2'
+    implementation project(':ProjectModel')
+    implementation 'org.springframework:spring-core:6.1.5'
+    implementation 'org.springframework:spring-context:6.1.14'
+}

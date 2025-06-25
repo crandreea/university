@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation project(':ProjectModel')
+    implementation project(':ProjectPersistance')
+    implementation project(':ProjectServices')
+    implementation project(':ProjectNetworking')
+
+}
+
+application {
+    mainClass = 'StartRpcServer'
+}

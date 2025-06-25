@@ -1,0 +1,2 @@
+obj/Debug/net8.0/gRPCprotocol/Project.cs \
+obj/Debug/net8.0/gRPCprotocol/ProjectGrpc.cs: gRPCprotocol/project.proto

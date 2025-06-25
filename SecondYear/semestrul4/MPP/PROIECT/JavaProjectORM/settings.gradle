@@ -1,0 +1,10 @@
+rootProject.name = "JavaProjectORM"
+include 'ProjectClient'
+include 'ProjectModel'
+include 'ProjectNetworking'
+include 'ProjectPersistance'
+include 'ProjectServer'
+include 'ProjectServices'
+include 'ProjectUtils'
+include 'JavaProjectREST'
+

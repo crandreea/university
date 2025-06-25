@@ -1,0 +1,9 @@
+rootProject.name = "SUB3_2024"
+include 'model'
+include 'persistence'
+include 'server'
+include 'services'
+include 'networking'
+include 'FXclient'
+include 'rest'
+

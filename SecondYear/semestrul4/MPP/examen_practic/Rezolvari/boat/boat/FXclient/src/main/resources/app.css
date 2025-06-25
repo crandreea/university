@@ -1,0 +1,119 @@
+.root {
+    -fx-background-color: #2c3e50; /* Dark blue-gray */
+    -fx-font-family: "Arial";
+}
+
+.game-grid {
+    -fx-background-color: #34495e; /* Slightly lighter dark blue */
+    -fx-padding: 5px;
+    -fx-border-color: #2980b9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.grid-cell {
+    -fx-background-color: #7f8c8d; /* Gray for unrevealed cells */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.grid-cell:hover {
+    -fx-background-color: #95a5a6; /* Lighter gray on hover */
+}
+
+.grid-cell:disabled {
+    -fx-opacity: 1; /* Keep full opacity when disabled but styled differently */
+    -fx-cursor: default;
+}
+
+.grid-cell-hit {
+    -fx-background-color: #e74c3c; /* Red for hit */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+}
+
+.grid-cell-miss {
+    -fx-background-color: #3498db; /* Blue for miss */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+}
+
+.grid-cell-boat {
+    -fx-background-color: #2ecc71; /* Green for boat (revealed after game ends) */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+}
+
+.section-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e; /* Slightly darker blue */
+    -fx-padding: 10px 0 0 0;
+}
+
+
+.games-table {
+    -fx-background-color: #ffffff; /* White background for table */
+    -fx-border-color: #bdc3c7; /* Light border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 13px;
+}
+
+.games-table .column-header-background {
+    -fx-background-color: #34495e;
+}
+
+.games-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.games-table .table-cell {
+    -fx-text-fill: #2c3e50;
+}
+
+.games-table .table-row-cell:odd {
+    -fx-background-color: #f8f9fa; /* Slightly off-white for odd rows */
+}
+
+.games-table .table-row-cell:selected {
+    -fx-background-color: #aed6f1; /* Light blue for selected row */
+    -fx-text-fill: #2c3e50;
+}
+
+.logout-button {
+    -fx-background-color: #e74c3c; /* Red */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.logout-button:hover {
+    -fx-background-color: #c0392b; /* Darker red on hover */
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5c21f3;
+}
+
+.info-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #bdc3c7;
+}

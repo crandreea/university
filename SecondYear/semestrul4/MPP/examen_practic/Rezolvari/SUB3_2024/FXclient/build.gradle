@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation project(':model')
+    implementation project(':persistence')
+    implementation project(':server')
+    implementation project(':networking')
+    implementation project(':services')
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'org.openjfx:javafx-controls:23'
+    implementation 'org.openjfx:javafx-fxml:23'
+    implementation("org.openjfx:javafx-base:21.0.6")
+    implementation("org.openjfx:javafx-graphics:21.0.6")
+}
+
+application {
+    mainClass = 'StartRpcClient'
+}
+
