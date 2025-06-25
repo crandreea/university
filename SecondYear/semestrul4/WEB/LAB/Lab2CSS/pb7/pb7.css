@@ -1,0 +1,46 @@
+.parinte{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.dialog{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 50%;
+}
+
+ul{
+    list-style: none;
+    max-width: fit-content;
+}
+
+.dialog li{
+    display: block;
+    position: relative;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 15px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.dialog li:before {
+	width: 70px;
+	height: 70px;		
+	content: "";
+	position: absolute;
+	left: -80px;
+}
+
+.dialog li.alice:before {
+	background: url("../images/alice-bob.png") -32px 120px;
+}
+
+.dialog li.bob:before {
+	background: url("../images/alice-bob.png") -32px 340px;
+}
+

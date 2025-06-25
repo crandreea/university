@@ -1,0 +1,105 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Page-1" id="3GDfs2uhB1Fr1Ze-fW5V">
+    <mxGraphModel dx="1216" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="xA6EbypOgcCbXGqVi5v6-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-1" value="User" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="xA6EbypOgcCbXGqVi5v6-3" target="xA6EbypOgcCbXGqVi5v6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-3" value="LoginForm" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;startFill=0;" edge="1" parent="1" target="xA6EbypOgcCbXGqVi5v6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="184.99999999999994" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-5" value="Auth Controller" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160.05" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="xA6EbypOgcCbXGqVi5v6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="184.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-7" value="Auth Service" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-8" value="User Repository" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="160.05" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-9" value="1: insert username" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0103" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="523" as="sourcePoint" />
+            <mxPoint x="90" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-11" value="4: login" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="330" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-12" value="5: login" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="170" as="sourcePoint" />
+            <mxPoint x="650" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-13" value="6: find user by username" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="870" y="170" as="sourcePoint" />
+            <mxPoint x="950" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-14" value="7: response" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="220" as="sourcePoint" />
+            <mxPoint x="870" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-15" value="8: response" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-16" value="9: response" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-33" value="2: insert password" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0103" width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="423" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xA6EbypOgcCbXGqVi5v6-35" value="3: click login button" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.0103" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="323" as="sourcePoint" />
+            <mxPoint x="90" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

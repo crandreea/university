@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+nav {
+    display: flex;
+    flex-direction: row;    
+}
+
+nav a{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/iconite.png");
+}
+
+#icon1{
+    background-position: -10px 0px
+}
+#icon1:hover {
+    background-position: -10px -170px
+}
+
+#icon2{
+    background-position: -180px 0px
+}
+#icon2:hover {
+    background-position: -180px -170px
+}
+
+#icon3{
+    background-position: -350px 0px
+}
+#icon3:hover {
+    background-position: -350px -170px
+}
+
+#icon4{
+    background-position: -520px 0px
+}
+#icon4:hover {
+    background-position: -520px -170px
+}
+
+#icon5{
+    background-position: -690px 0px
+}
+#icon5:hover {
+    background-position: -690px -170px
+}
+
+#icon6{
+    background-position: -860px 0px
+}
+#icon6:hover {
+    background-position: -860px -170px
+}
+
+#icon7{
+    background-position: -1020px 0px
+}
+#icon7:hover {
+    background-position: -1020px -170px
+}
+
+#icon8{
+    background-position: -1190px 0px
+}
+#icon8:hover {
+    background-position: -1190px -170px
+}
+
+#icon9{
+    background-position: -1360px 0px
+}
+#icon9:hover {
+    background-position: -1360px -170px
+}
+
+#icon10{
+    background-position: -1520px 0px
+}
+#icon10:hover {
+    background-position: -1520px -170px
+}
+

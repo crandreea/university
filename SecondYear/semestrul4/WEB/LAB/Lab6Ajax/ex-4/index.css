@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+}
+
+#game-info {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#game-board {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+    tr, th, td {
+        height: 80px;
+        width: 80px;
+        border: 2px solid black;
+    }
+
+    td {
+        text-align: center;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    td:hover {
+        background-color: tomato;
+    }
+
+    .disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+    }
+}

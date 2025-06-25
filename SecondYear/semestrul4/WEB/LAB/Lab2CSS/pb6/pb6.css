@@ -1,0 +1,37 @@
+.parinte{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nume-container, .prenume-container, .cnp-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.text-container{
+    display: block;
+    align-items: center;
+    font-size: 35px;
+    text-align: right;
+    width: 150px;
+}
+
+.input-name, .input-cnp{
+    height: 40px;
+    letter-spacing: 29px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    padding-left: 16px;
+    background-image: url("../images/block.png");
+}
+
+.input-name{
+    width: calc(40px * 20 - 16px);
+}
+
+.input-cnp{
+    width: calc(40px * 13 - 16px);
+}

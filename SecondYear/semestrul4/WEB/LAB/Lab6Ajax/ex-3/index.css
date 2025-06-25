@@ -1,0 +1,59 @@
+.container {
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 1em;
+    row-gap: 30px;
+}
+
+.select-id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 10px;
+
+    label {
+        font-weight: bold;
+    }
+
+    select {
+        width: 258px;
+        height: 25px;
+    }
+}
+
+#form-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+}
+
+#form-contact > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    input {
+        width: 250px;
+    }
+}
+
+#btn-save {
+    height: 30px;
+    background-color: tomato;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 1em;
+    cursor: pointer;
+}

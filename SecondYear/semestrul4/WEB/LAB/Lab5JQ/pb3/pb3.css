@@ -1,0 +1,38 @@
+#board {
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+#board td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: background-color 0.3s;
+}
+
+.matched {
+    background-color: rgb(60, 162, 60) !important;
+}
+
+.incorrect {
+    background-color: rgb(163, 40, 40) !important;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}

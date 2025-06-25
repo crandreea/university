@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    background-color: yellow;
+    overflow: hidden;
+    min-height: 2vh;
+}
+
+li {
+    width: 20%;
+    border-right: 1px solid;
+    float: left;
+    text-align: center;
+}
+
+.header{
+    background-color: red; 
+    height: 20vh;
+    text-align: center;
+}
+
+.main{
+    background-color: green; 
+    height: 58vh;
+}
+
+.footer{
+    background-color: pink; 
+    height: 20vh;
+}
+
+

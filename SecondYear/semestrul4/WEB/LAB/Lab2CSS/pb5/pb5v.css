@@ -1,0 +1,39 @@
+.parinte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+    width: 400px;
+}
+
+.lil-container{
+    display: flex;
+    flex-direction: row;
+    background-color: greenyellow;
+    width: 100%;
+    padding: 10px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+
+}
+
+.text{
+    display: block; 
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    width: calc(100% - 130px); 
+    height: auto;
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Exercise 1</title>
+</head>
+<body onload="loadDepartures()">
+    <div class="container">
+        <div>
+            <label for="departure">Departures</label>
+            <select id="departure" onchange="loadArrivals()">
+            </select>
+        </div>
+
+        <div>
+            <label for="arrival">Arrivals</label>
+            <select id="arrival">
+            </select>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index-jquery.js"></script>
+
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>

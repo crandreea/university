@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    background-color: yellow;
+    overflow: hidden;
+    min-height: 2vh;
+    width: 20%;
+}
+
+li {
+    border-bottom: 1px solid;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.header{
+    background-color: red; 
+    height: 20vh;
+}
+
+.main{
+    background-color: green; 
+    height: 60vh;
+    width: 80%;
+}
+
+.footer{
+    background-color: pink; 
+    height: 20vh;
+}
+
+.lista{
+    display: flex;
+}
+
+
+
+
+

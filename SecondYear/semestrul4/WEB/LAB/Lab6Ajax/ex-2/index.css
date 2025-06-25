@@ -1,0 +1,40 @@
+.contacts-container {
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    row-gap: 30px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    min-width: 100px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons > button {
+    height: 30px;
+    width: 80px;
+    background-color: tomato;
+    border-radius: 1em;
+    cursor: pointer;
+    font-weight: bold;    
+}

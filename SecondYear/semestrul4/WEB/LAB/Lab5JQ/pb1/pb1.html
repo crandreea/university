@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+    <link rel="stylesheet" href="pb1.css">
+    <script src="pb1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="parinte">
+        <div class="list-container">
+            <select id="list1" multiple ondblclick="moveItem('list1', 'list2')">
+                <option value="item1">Apple</option>
+                <option value="item2">Banana</option>
+                <option value="item3">Cherry</option>
+                <option value="item4">Orange</option>
+            </select>
+        </div>
+        <div class="list-container">
+            <select id="list2" multiple ondblclick="moveItem('list2', 'list1')">
+                <option value="item5">Carrot</option>
+                <option value="item6">Potato</option>
+                <option value="item7">Tomato</option>
+            </select>
+        </div>
+        
+    </div>
+</body>

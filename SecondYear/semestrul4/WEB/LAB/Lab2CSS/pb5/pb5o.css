@@ -1,0 +1,44 @@
+.parinte{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+
+    gap: 20px;
+    width: 440px;
+    height: fit-content;
+}
+
+.lil-container{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 200px;
+    min-height: 300px;
+    max-height: fit-content;
+
+    gap: 20px;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.text{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}

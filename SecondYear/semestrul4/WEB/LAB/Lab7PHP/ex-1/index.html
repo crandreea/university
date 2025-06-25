@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Căutare Trenuri</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f2f2f2; }
+        form { display:flex; flex-direction:column; align-items:center; background-color: white; padding: 20px; border-radius: 10px; max-width: 400px; margin: auto; }
+        input, select { width: 80%; padding: 10px; margin-bottom: 10px; }
+        label { display: block; margin-bottom: 5px; }
+        button { background-color: darkgrey; color: white; border: none; padding: 10px; cursor: pointer; }
+        button:hover { background-color: lightgray; }
+    </style>
+</head>
+<body>
+    <form method="POST" action="trenuri.php">
+        <label for="plecare">Localitate plecare:</label>
+        <input type="text" id="plecare" name="plecare" required>
+
+        <label for="sosire">Localitate sosire:</label>
+        <input type="text" id="sosire" name="sosire" required>
+
+        <label>
+            <input type="checkbox" name="direct" value="1">
+            Doar curse directe
+        </label>
+
+        <button type="submit">Caută Trenuri</button>
+    </form>
+</body>
+</html>
