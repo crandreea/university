@@ -1,1 +1,10 @@
-SecondYear/semestrul4/MPP/examen_practic/Rezolvari/boat/.DS_Store
+*.DS_Store
+*.env
+*.idea
+*.vscode
+*.gradle
+*.dSYM
+*__pycache__
+*cmake-build-debug
+*gradle
+*gradlew.bat
