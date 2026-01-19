@@ -1,0 +1,33 @@
+antet_program -> HASH INCLUDE LT IOSTREAM GT USING NAMESPACE STD SEMI
+tip -> INT
+antet_functie -> tip ID LPAREN RPAREN
+tip -> INT
+element_decl -> ID
+factor -> CONSTVAL
+termen -> factor
+expr_aritmetica -> termen
+element_decl -> ID ASSIGN expr_aritmetica
+factor -> CONSTVAL
+termen -> factor
+expr_aritmetica -> termen
+element_decl -> ID ASSIGN expr_aritmetica
+factor -> CONSTVAL
+termen -> factor
+expr_aritmetica -> termen
+element_decl -> ID ASSIGN expr_aritmetica
+lista_variabile -> element_decl
+lista_variabile -> element_decl COMMA lista_variabile
+lista_variabile -> element_decl COMMA lista_variabile
+lista_variabile -> element_decl COMMA lista_variabile
+declarare -> tip lista_variabile SEMI
+instruct -> declarare
+citire -> READ SHR ID SEMI
+instruct -> citire
+scriere -> WRITE SHL ID SEMI
+instruct -> scriere
+instruct_compusa -> instruct
+instruct_compusa -> instruct instruct_compusa
+instruct_compusa -> instruct instruct_compusa
+corp -> LBRACE instruct_compusa RBRACE
+functie -> antet_functie corp
+program -> antet_program functie
