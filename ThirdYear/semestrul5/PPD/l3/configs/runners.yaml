@@ -1,0 +1,122 @@
+# implementations:
+#   - standard_optimized:
+#         - test_1:
+#             digits_1: 16
+#             digits_2: 16
+#             processes:
+#               - 5
+
+#         - test_2:
+#             digits_1: 10000
+#             digits_2: 10000
+#             processes:
+#               - 5
+#               - 9
+#               - 17
+
+#         - test_3:
+#             digits_1: 100
+#             digits_2: 100000
+#             processes:
+#               - 5
+#               - 9
+#               - 17
+#   - sequential:
+#       - test_1:
+#           digits_1: 16
+#           digits_2: 16
+#           processes:
+#             - 1
+
+#       - test_2:
+#           digits_1: 10000
+#           digits_2: 10000
+#           processes:
+#             - 1
+
+#       - test_3:
+#           digits_1: 100
+#           digits_2: 100000
+#           processes:
+#             - 1
+
+#       - test_4:
+#           digits_1: 1000
+#           digits_2: 1000
+#           processes:
+#             - 1
+
+#       - test_5:
+#           digits_1: 4
+#           digits_2: 4
+#           processes:
+#             - 1
+
+#   - standard:
+#       - test_1:
+#           digits_1: 16
+#           digits_2: 16
+#           processes:
+#             - 5
+
+#       - test_2:
+#           digits_1: 10000
+#           digits_2: 10000
+#           processes:
+#             - 5
+#             - 9
+#             - 17
+
+#       - test_3:
+#           digits_1: 100
+#           digits_2: 100000
+#           processes:
+#             - 5
+#             - 9
+#             - 17
+
+#   - scatter:
+#       - test_1:
+#           digits_1: 16
+#           digits_2: 16
+#           processes:
+#             - 4
+
+#       - test_2:
+#           digits_1: 1000
+#           digits_2: 1000
+#           processes:
+#             - 4
+#             - 8
+#             - 16
+
+#       - test_3:
+#           digits_1: 100
+#           digits_2: 100000
+#           processes:
+#             - 4
+#             - 8
+#             - 16
+
+#   # - async:
+#   #     - test_1:
+#   #         digits_1: 16
+#   #         digits_2: 16
+#   #         processes:
+#   #           - 5
+
+#   #     - test_2:
+#   #         digits_1: 10000
+#   #         digits_2: 10000
+#   #         processes:
+#   #           - 5
+#   #           - 9
+#   #           - 17
+
+#   #     - test_3:
+#   #         digits_1: 100
+#   #         digits_2: 100000
+#   #         processes:
+#   #           - 5
+#   #           - 9
+#   #           - 17

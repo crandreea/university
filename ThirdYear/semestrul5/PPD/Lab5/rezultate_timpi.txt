@@ -1,0 +1,6 @@
+=== Rulare teste paralelizare ===
+
+p = 6,  p_r = 4  -->  Timpul de executie: 11 ms
+p = 8,  p_r = 4  -->  Timpul de executie: 12 ms
+p = 12,  p_r = 4  -->  Timpul de executie: 10 ms
+

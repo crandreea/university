@@ -1,0 +1,94 @@
+void convolutie_bloc(int start_i, int end_i, int start_j, int end_j) {
+    int offset = n / 2;
+    for (int i = max(start_i, offset); i < min(end_i, N - offset); i++) {
+        for (int j = max(start_j, offset); j < min(end_j, M - offset); j++) {
+            int s = 0;
+            for (int u = 0; u < n; u++)
+                for (int v = 0; v < m; v++)
+                    s += F[i - offset + u][j - offset + v] * C[u][v];
+            V[i][j] = s;
+        }
+    }
+}
+
+void convolutie_paralela_blocuri() {
+    vector<thread> threads;
+
+    int root = (int)sqrt(p);
+
+    int bloc_linii = N / root;
+    int bloc_col = M / root;
+
+    auto t_start = chrono::high_resolution_clock::now();
+
+    for (int i = 0; i < root; i++) {
+        for (int j = 0; j < root; j++) {
+            int start_i = i * bloc_linii;
+            int end_i = min(N, (i + 1) * bloc_linii);
+            int start_j = j * bloc_col;
+            int end_j = min(M, (j + 1) * bloc_col);
+
+            threads.emplace_back(convolutie_bloc, start_i, end_i, start_j, end_j);
+        }
+    }
+    
+    for (auto &t : threads)
+        t.join();
+
+    auto t_end = chrono::high_resolution_clock::now();
+    double elapsed_time_ms = chrono::duration<double, milli>(t_end - t_start).count();
+
+    std::cout<<(int)elapsed_time_ms * 100;
+}
+
+// void main_paralel_blocuri(int nrThrd) {
+//     p = nrThrd;
+//     citire_matrici("date1.txt");
+//     convolutie_paralela_blocuri();
+//     afisare("output_blocuri.txt");
+// }
+
+
+- pe blocuri
+
+| Input                    | Threaduri  | Static       | Dinamic |
+| :----------------------- | :--------: |:------------:| ------: |
+| N=M=10 si n=m=3          |  4         |      0     |     0   |
+| N=M=1000 si n=m=5        |  2         |      15.20     |  14.00   |
+| N=M=1000 si n=m=5        |  4         |      4.90     |   5.90   |
+| N=M=1000 si n=m=5        |  8         |       5.30    |  5.20    |
+| N=M=1000 si n=m=5        |  16        |       3.70    |  3.30    |
+| N=10 M=10000 si n=m=5    |  2         |       0.10   |   0     |
+| N=10 M=10000 si n=m=5    |  4         |         0  |   0    |
+| N=10 M=10000 si n=m=5    |  8         |          0 |    0    |
+| N=10 M=10000 si n=m=5    |  16        |        0  |     0   |
+| N=10000 M=10 si n=m=5    |  2         |    12.10     |   0    |
+| N=10000 M=10 si n=m=5    |  4         |    11.20     |   0    |
+| N=10000 M=10 si n=m=5    |  8         |     8.90    |    0    |
+| N=10000 M=10 si n=m=5    |  16        |     9.30    |    0    |
+| N=10000 M=10000 si n=m=5 |  2         |      1453.60   |  1533.10 |
+| N=10000 M=10000 si n=m=5 |  4         |      454.70   |  449.70  | 
+| N=10000 M=10000 si n=m=5 |  8         |    442.20     |  461.90  |
+| N=10000 M=10000 si n=m=5 |  16        |     325.40    |  329.90  |
+
+- pe blocuri
+
+| Input                    | Threaduri  | Static       |
+| :----------------------- | :--------: |:------------:| 
+| N=M=10 si n=m=3          |  4         |     438.1      |     
+| N=M=1000 si n=m=5        |  2         |      39914.2     |  
+| N=M=1000 si n=m=5        |  4         |     25255.6      |   
+| N=M=1000 si n=m=5        |  8         |    29003.9       |  
+| N=M=1000 si n=m=5        |  16        |    53649.4       |  
+| N=10 M=10000 si n=m=5    |  2         |    7821.7      |  
+| N=10 M=10000 si n=m=5    |  4         |     15372.8      |   
+| N=10 M=10000 si n=m=5    |  8         |     14286.4      |    
+| N=10 M=10000 si n=m=5    |  16        |    16594.7      |    
+| N=10000 M=10 si n=m=5    |  2         |     8322    |  
+| N=10000 M=10 si n=m=5    |  4         |    15493.5     |   
+| N=10000 M=10 si n=m=5    |  8         |   15122.6      |    
+| N=10000 M=10 si n=m=5    |  16        |    19727.8     |   
+| N=10000 M=10000 si n=m=5 |  2         |     3660568.2     |  
+| N=10000 M=10000 si n=m=5 |  4         |      1204680.7     |  
+| N=10000 M=10000 si n=m=5 |  8         |   1027506.8      |  
+| N=10000 M=10000 si n=m=5 |  16        |    828522.3      |  
