@@ -1,5 +1,5 @@
-# UBB FMI Projects
-This repo contains some **projects, assignments, resources, and notes** I've worked on throughout my university journey (so far).  
+# UBB Computer Science Projects
+This repo contains some **projects, assignments, resources, and notes** I've worked on throughout my university journey.  
 
 ## First Year
 <table>
