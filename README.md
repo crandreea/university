@@ -133,3 +133,40 @@ This repo contains some **projects, assignments, resources, and notes** I've wor
     </td>
   </tr>
 </table>
+
+## Third Year
+
+<table>
+  <tr>
+  <td align="center" width="200">
+      <a href="https://github.com/crandreea/university/tree/main/ThirdYear/semestrul5/PDM">
+        <img width="50" height="50" src="https://img.icons8.com/?size=100&id=FRuHh0dWfr9w&format=png&color=000000" alt="Mobile Applications Development" />
+      </a>
+      <br>Mobile Applications Development
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/crandreea/university/tree/main/ThirdYear/semestrul5/LFTC">
+        <img width="50" height="50" src="https://img.icons8.com/?size=100&id=dJwi40iPshMK&format=png&color=000000" alt="Formal Languages and Compiler Design Methods" />
+      </a>
+      <br>Formal Languages and Compiler Design Methods
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/crandreea/university/tree/main/ThirdYear/semestrul5/IOC">
+        <img width="50" height="50" src="https://img.icons8.com/?size=100&id=yaEC4bggizvh&format=png&color=000000" alt="Human-Computer Interaction" />
+      </a>
+      <br>Human-Computer Interaction
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/crandreea/university/tree/main/ThirdYear/semestrul5/PPD">
+        <img width="50" height="50" src="https://img.icons8.com/?size=100&id=13154&format=png&color=000000" alt="Parallel and Distributed Programming" />
+      </a>
+      <br>Parallel and Distributed Programming
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/crandreea/university/tree/main/ThirdYear/semestrul6/CN">
+        <img width="50" height="50" src="https://img.icons8.com/?size=100&id=zEEIIYde6Eys&format=png&color=000000" alt="Calculus" />
+      </a>
+      <br>Calculus
+    </td>
+  </tr>
+</table>
